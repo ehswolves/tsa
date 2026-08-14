@@ -110,7 +110,8 @@ const OFFICERS = [
 {
   name: "Tanya Acharya",
   role: "President",
-  email: "1046594@lwsd.org"
+  email: "1046594@lwsd.org",
+  photo: "assets/officers/tanya-acharya.jpg"
 },
 {
   name: "Sayuri Kuruppu",
@@ -158,7 +159,7 @@ const DATES = [
   kind: "State conference",
   detail: "Washington TSA",
   title: "WA TSA State",
-  range: "Apr 15 – 18, 2027",
+  range: "Apr 7 – 10, 2027",
   note: "Falls during Spring Break — sorry, not our fault 😢. Teams confirmed in late winter.",
   variant: "crimson"
 },
@@ -442,6 +443,20 @@ const Teams = () =>
   </section>;
 
 
+/* Photos are added one officer at a time. Anyone without one — or whose file
+   isn't in place yet — keeps the initials circle rather than a broken image. */
+const OfficerAvatar = ({ officer, initials }) => {
+  const [failed, setFailed] = useState(false);
+  const showPhoto = officer.photo && !failed;
+  return (
+    <div className={`site-officer__avatar ${showPhoto ? "has-photo" : ""}`}>
+      {showPhoto ?
+      <img src={officer.photo} alt={officer.name} onError={() => setFailed(true)} /> :
+      initials}
+    </div>);
+
+};
+
 const Officers = () =>
 <section className="es-section">
     <div className="es-container">
@@ -459,7 +474,7 @@ const Officers = () =>
         const initials = o.name.split(" ").map((n) => n[0]).slice(0, 2).join("");
         return (
           <article key={i} className={`site-officer ${o.isAdvisor ? "site-officer--advisor" : ""}`}>
-              <div className="site-officer__avatar">{initials}</div>
+              <OfficerAvatar officer={o} initials={initials} />
               <div className="site-officer__body">
                 <div className="site-officer__role">{o.role}</div>
                 <h3 className="site-officer__name">{o.name}</h3>

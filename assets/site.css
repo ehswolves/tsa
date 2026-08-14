@@ -291,6 +291,18 @@
   border-color: var(--crimson-300);
   background: linear-gradient(180deg, var(--crimson-50) 0%, #fff 56%);
 }
+.site-officer__avatar.has-photo {
+  background: var(--paper-3);
+  overflow: hidden;
+}
+.site-officer__avatar.has-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Officer portraits are head-and-shoulders, so bias the crop upward. */
+  object-position: 50% 25%;
+  display: block;
+}
 .site-officer__avatar {
   width: 56px;
   height: 56px;
