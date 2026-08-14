@@ -1,0 +1,318 @@
+/* =========================================================================
+   Eastlake TSA — Colors & Type Tokens
+   Single source of truth. All UI in ui_kits/ pulls from here.
+   ========================================================================= */
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Bungee&display=swap");
+
+:root {
+  /* -------------------------------------------------------------------------
+     COLORS — raw palette
+     Aligned with the official TSA brand seen on Eastlake's logo:
+     bright royal blue, vermilion red, white. Punchier than navy/crimson.
+     ------------------------------------------------------------------------- */
+
+  /* Blue — primary brand. The official TSA royal blue. */
+  --navy-50:  #E6F0F9;
+  --navy-100: #C2D9EE;
+  --navy-200: #8AB6DC;
+  --navy-300: #5394CB;
+  --navy-400: #1F73B9;
+  --navy-500: #0F66B0;
+  --navy-600: #005FA8;   /* default link / nav */
+  --navy-700: #0058A8;   /* primary fill — TSA blue */
+  --navy-800: #024A8C;   /* hover */
+  --navy-900: #052E5C;   /* deepest — footer ground */
+
+  /* Red — accent. The official TSA vermilion. */
+  --crimson-50:  #FDECEA;
+  --crimson-100: #F9CBC5;
+  --crimson-200: #F39E94;
+  --crimson-300: #ED7263;
+  --crimson-400: #E84B38;
+  --crimson-500: #E2271A;
+  --crimson-600: #DA1F1A;   /* default accent — TSA red */
+  --crimson-700: #B5170F;
+  --crimson-800: #8C100A;
+  --crimson-900: #5E0905;
+
+  /* Warm neutrals — slightly warm gray scale so off‑whites
+     don't read sterile next to the navy. */
+  --paper:        #FFFFFF;
+  --paper-2:      #F6F4EF;   /* alternating section bg */
+  --paper-3:      #EEEAE0;   /* slightly more saturated */
+  --line:         #E4DFD3;   /* card / divider borders */
+  --line-strong:  #C9C3B3;
+  --ink-300:      #A8A095;   /* tertiary text, captions */
+  --ink-500:      #6B6358;   /* secondary text */
+  --ink-700:      #2E2A24;   /* high‑contrast text on paper */
+  --ink-900:      #0F172A;   /* body copy default */
+
+  /* Status — used sparingly. */
+  --success-600: #1F8A5B;
+  --success-50:  #E6F4ED;
+  --warn-600:    #B4791E;
+  --warn-50:     #FBF1DA;
+  --info-600:    #1E5FB0;
+  --info-50:     #E3EDFA;
+  --danger-600:  var(--crimson-600);
+  --danger-50:   var(--crimson-50);
+
+  /* -------------------------------------------------------------------------
+     COLORS — semantic
+     ------------------------------------------------------------------------- */
+
+  --color-bg:           var(--paper);
+  --color-bg-alt:       var(--paper-2);
+  --color-bg-deep:      var(--navy-900);
+  --color-surface:      var(--paper);
+  --color-surface-alt:  var(--paper-2);
+
+  --color-fg:           var(--ink-900);
+  --color-fg-muted:     var(--ink-500);
+  --color-fg-subtle:    var(--ink-300);
+  --color-fg-onDark:    #FFFFFF;
+  --color-fg-onDark-muted: rgba(255,255,255,0.72);
+
+  --color-brand:        var(--navy-700);
+  --color-brand-hover:  var(--navy-800);
+  --color-accent:       var(--crimson-600);
+  --color-accent-hover: var(--crimson-700);
+
+  --color-link:         var(--navy-700);
+  --color-link-hover:   var(--crimson-600);
+
+  --color-border:       var(--line);
+  --color-border-strong:var(--line-strong);
+  --color-focus-ring:   var(--crimson-600);
+
+  /* -------------------------------------------------------------------------
+     TYPOGRAPHY — families
+     ------------------------------------------------------------------------- */
+
+  --font-display: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-body:    "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-mono:    ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  /* Chunky athletic display — used SPARINGLY for hero moments only.
+     Approximates the layered red/blue treatment on the Eastlake TSA logo. */
+  --font-athletic: "Bungee", "Sora", ui-sans-serif, sans-serif;
+
+  /* -------------------------------------------------------------------------
+     TYPOGRAPHY — type scale (px values)
+     Built on a 1.25 modular scale at the top, looser at the bottom.
+     ------------------------------------------------------------------------- */
+
+  --fs-xs:   12px;
+  --fs-sm:   14px;
+  --fs-md:   16px;   /* body default */
+  --fs-lg:   18px;
+  --fs-xl:   22px;
+  --fs-2xl:  28px;
+  --fs-3xl:  36px;
+  --fs-4xl:  48px;
+  --fs-5xl:  64px;
+
+  --lh-tight: 1.1;
+  --lh-snug:  1.25;
+  --lh-normal:1.5;
+  --lh-loose: 1.7;
+
+  --tracking-tight:  -0.02em;
+  --tracking-snug:   -0.01em;
+  --tracking-normal: 0;
+  --tracking-wide:   0.04em;
+  --tracking-wider:  0.08em;   /* eyebrows */
+
+  /* -------------------------------------------------------------------------
+     SPACING — 4‑px step, 8‑px grid base
+     ------------------------------------------------------------------------- */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10:128px;
+
+  /* -------------------------------------------------------------------------
+     RADII
+     ------------------------------------------------------------------------- */
+
+  --radius-xs:  4px;
+  --radius-sm:  6px;    /* buttons, chips */
+  --radius-md:  10px;   /* cards */
+  --radius-lg:  16px;   /* hero / feature panels */
+  --radius-pill:999px;
+
+  /* -------------------------------------------------------------------------
+     SHADOWS — restrained. One real elevation level.
+     ------------------------------------------------------------------------- */
+
+  --shadow-none: 0 0 0 0 rgba(0,0,0,0);
+  --shadow-sm:   0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-pop:  0 12px 32px -8px rgba(15, 23, 42, 0.18),
+                 0 2px 6px rgba(15, 23, 42, 0.06);
+
+  /* -------------------------------------------------------------------------
+     LAYOUT
+     ------------------------------------------------------------------------- */
+
+  --content-max:   1180px;
+  --gutter:        64px;
+  --gutter-mobile: 24px;
+  --header-h:      64px;
+
+  /* -------------------------------------------------------------------------
+     MOTION
+     ------------------------------------------------------------------------- */
+
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur-fast: 120ms;
+  --dur:      150ms;
+  --dur-slow: 260ms;
+}
+
+/* =========================================================================
+   Semantic element defaults
+   Pull these onto elements with classes like .es-h1, or apply globally.
+   ========================================================================= */
+
+.es-h1, .es-h2, .es-h3, .es-h4, .es-eyebrow {
+  font-family: var(--font-display);
+  color: var(--color-fg);
+  margin: 0;
+}
+
+.es-h1 {
+  font-size: var(--fs-5xl);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-tight);
+  font-weight: 700;
+}
+
+.es-h2 {
+  font-size: var(--fs-4xl);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-tight);
+  font-weight: 700;
+}
+
+.es-h3 {
+  font-size: var(--fs-2xl);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-snug);
+  font-weight: 600;
+}
+
+.es-h4 {
+  font-size: var(--fs-xl);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-snug);
+  font-weight: 600;
+}
+
+.es-eyebrow {
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.es-body {
+  font-family: var(--font-body);
+  font-size: var(--fs-md);
+  line-height: var(--lh-normal);
+  color: var(--color-fg);
+}
+
+.es-body-lg {
+  font-family: var(--font-body);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-normal);
+  color: var(--color-fg);
+}
+
+.es-meta {
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-snug);
+  color: var(--color-fg-muted);
+}
+
+.es-caption {
+  font-family: var(--font-body);
+  font-size: var(--fs-xs);
+  line-height: var(--lh-snug);
+  color: var(--color-fg-subtle);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+}
+
+/* Athletic display — chunky letters with the signature TSA layered red/blue
+   offset. Use sparingly: hero titles, big moments. */
+.es-athletic {
+  font-family: var(--font-athletic);
+  font-weight: 400; /* Bungee only ships one weight */
+  letter-spacing: 0;
+  line-height: 1;
+  color: var(--crimson-600);
+  text-transform: uppercase;
+  text-shadow:
+    -2px -2px 0 var(--navy-700),
+     2px -2px 0 var(--navy-700),
+    -2px  2px 0 var(--navy-700),
+     2px  2px 0 var(--navy-700),
+     4px  4px 0 var(--navy-700);
+}
+.es-athletic--mono {
+  color: var(--navy-700);
+  text-shadow: none;
+}
+
+/* Diagonal stripe corner motif — the signature TSA visual.
+   Apply to a positioned parent; uses ::before and ::after. */
+.es-stripe-frame {
+  position: relative;
+  overflow: hidden;
+}
+.es-stripe-frame::before,
+.es-stripe-frame::after {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--crimson-600) 0,
+    var(--crimson-600) 3px,
+    transparent 3px,
+    transparent 14px
+  );
+  pointer-events: none;
+}
+.es-stripe-frame::before {
+  top: 0;
+  left: 0;
+  -webkit-mask-image: linear-gradient(135deg, #000 0%, #000 38%, transparent 65%);
+          mask-image: linear-gradient(135deg, #000 0%, #000 38%, transparent 65%);
+}
+.es-stripe-frame::after {
+  bottom: 0;
+  right: 0;
+  -webkit-mask-image: linear-gradient(135deg, transparent 35%, #000 62%, #000 100%);
+          mask-image: linear-gradient(135deg, transparent 35%, #000 62%, #000 100%);
+}
+
+.es-link {
+  color: var(--color-link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color var(--dur) var(--ease-out);
+}
+.es-link:hover { color: var(--color-link-hover); }
