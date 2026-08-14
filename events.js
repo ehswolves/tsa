@@ -182,6 +182,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Tesla STEM HS, Team 1, 2026 1st Place",
+  "image": "assets/events/animation.jpg",
+  "thumb": "assets/events/thumb/animation.jpg",
   "blurb": "Using 3D, 2D, and/or stop-motion animation tools, participants develop an animated short (with sound) and portfolio that reflects the theme for the year."
  },
  {
@@ -332,6 +334,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Tesla STEM HS, Team 3, 2026 1st Place",
+  "image": "assets/events/animatronics.jpg",
+  "thumb": "assets/events/thumb/animatronics.jpg",
   "blurb": "Participants demonstrate knowledge of mechanical and control systems by designing, fabricating, and controlling an animatronics device that will communicate, entertain, inform, demonstrate and/or illustrate a topic, idea, subject, or concept. Sound, lights, and a surrounding environment must accompany the device."
  },
  {
@@ -493,6 +497,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Redmond HS, Team 3, 2026 1st Place",
+  "image": "assets/events/architectural-design.jpg",
+  "thumb": "assets/events/thumb/architectural-design.jpg",
   "blurb": "Participants develop a set of architectural plans and related materials in response to an annual architectural design challenge and construct a physical, as well as a computer-generated model, to accurately depict their design. Participants must demonstrate an understanding of and aptitude for architectural design, the development of plans, modeling techniques and practice, and the awareness of the role that the built environment can play in human behavior and interactions."
  },
  {
@@ -654,6 +660,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "North Creek HS, Team 2, 2026 1st Place State, 2nd Place National",
+  "image": "assets/events/audio-podcasting.jpg",
+  "thumb": "assets/events/thumb/audio-podcasting.jpg",
   "blurb": "Participants use digital audio technology to create original content for a podcast piece that addresses the annual theme. The podcast must feature high level storytelling techniques, voice acting, and folly sound effects; the full entry must include documentation of the podcast development process and elements. Semifinalists participate in an interview."
  },
  {
@@ -792,6 +800,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Tesla STEM HS, Team 3, 2026 1st Place",
+  "image": "assets/events/biotechnology-design.jpg",
+  "thumb": "assets/events/thumb/biotechnology-design.jpg",
   "blurb": "Participants select a contemporary biotechnology problem that reflects the theme for the year (see below). Participants demonstrate understanding of the topic through documented research, the development of a solution, a display (including an optional model or prototype), and an effective multimedia presentation."
  },
  {
@@ -926,6 +936,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Stanwood HS, Team 1, 2026 1st Place",
+  "image": "assets/events/board-game-design.jpg",
+  "thumb": "assets/events/thumb/board-game-design.jpg",
   "blurb": "Participants develop, build, and package a board game that focuses on the subject of their choice. The game should be interesting, exciting, visually appealing, and intellectually challenging. Each team will have to design the packaging, instructions, pieces, and cards associated with creating and piloting a new board game. Semifinalists for the event will set up the game, demonstrate how the game is played, and explain the game’s features."
  },
  {
@@ -1107,6 +1119,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Niranjana Karthikeyan, North Creek HS, 2026 1st Place",
+  "image": "assets/events/career-prep.jpg",
+  "thumb": "assets/events/thumb/career-prep.jpg",
   "blurb": "Career Prep is currently a middle school national TSA event. Washington TSA will run Career Prep as a high school event also. Students have to research an entry-level career, and write a cover letter and resume as if they have just graduated from college/high school/tech school with whatever training is required for the position they are applying for. Then, semifinalists will do an interview as well. This is one of the most useful skills TSA students will use for a lifetime."
  },
  {
@@ -1224,6 +1238,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Juanita HS, Team 3, 2026 1st Place",
+  "image": "assets/events/catapult.jpg",
+  "thumb": "assets/events/thumb/catapult.jpg",
   "blurb": "This is a fun, exciting event that teachers can use to capture student interest in STEM and TSA. This event incorporates elements of design, research, construction and problem-solving in a real-world application. Catapults must be made out of PVC."
  },
  {
@@ -1371,6 +1387,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Lake Washington HS, Team 3, 2026 1st Place State, 1st Place National",
+  "image": "assets/events/childrens-stories.jpg",
+  "thumb": "assets/events/thumb/childrens-stories.jpg",
   "blurb": "Participants create an illustrated children's story of high artistic, instructional, and social value. The narrative may be written in prose or poetry and take the form of a fable, adventure story, or other structure. The physical story book should be of high quality and designed to reflect the theme for the year (see below). The story must have a science, technology, engineering, and mathematics (STEM) focus."
  },
  {
@@ -1587,6 +1605,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "North Creek HS, Team 2, 2026 1st Place State, 1st Place National",
+  "image": "assets/events/coding.jpg",
+  "thumb": "assets/events/thumb/coding.jpg",
   "blurb": "Participants respond to an annual coding-related design challenge by developing a software program that will accurately address an onsite problem in a specified, limited amount of time."
  },
  {
@@ -1727,6 +1747,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Evan Walker, Eisenhower HS, 2026 1st Place",
+  "image": "assets/events/computer-aided-design-cad-architecture.jpg",
+  "thumb": "assets/events/thumb/computer-aided-design-cad-architecture.jpg",
   "blurb": "Participants use complex computer graphic skills, tools, and processes to develop representations of architectural subjects, such as foundation and/or floor plans, and/or elevation drawings, and/or details of architectural ornamentation or cabinetry."
  },
  {
@@ -1867,6 +1889,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Kellen Trummer, Inglemoor HS, 2026 1st Place State, 2nd Place National",
+  "image": "assets/events/computer-aided-design-cad-engineering.jpg",
+  "thumb": "assets/events/thumb/computer-aided-design-cad-engineering.jpg",
   "blurb": "Participants use complex computer graphic skills, tools, and processes to develop three-dimensional representations of engineering subjects such as a machine part, tool, device, or manufactured product."
  },
  {
@@ -2025,6 +2049,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Ashlynn Bates, Othello HS, 2026 1st Place",
+  "image": "assets/events/concept-art.jpg",
+  "thumb": "assets/events/thumb/concept-art.jpg",
   "blurb": "Participants use digital art and design skills in the production of conceptual art and portfolio that reflects the theme for the year."
  },
  {
@@ -2186,6 +2212,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Bothell HS, Team 1, 2026 1st Place",
+  "image": "assets/events/data-science-and-analytics.jpg",
+  "thumb": "assets/events/thumb/data-science-and-analytics.jpg",
   "blurb": "Participants collect data, conduct an analysis of the data, and make a prediction about the outcome. Participants document and summarize their research within a scientific poster and present their findings. Semifinalists have two (2) hours to create a visual representation of a provided data set."
  },
  {
@@ -2369,6 +2397,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "North Creek HS, Team 3, 2026 1st Place",
+  "image": "assets/events/debating-technological-issues.jpg",
+  "thumb": "assets/events/thumb/debating-technological-issues.jpg",
   "blurb": "Participants work together to prepare for a debate against a team from another chapter. The teams will be instructed to take either the pro or con side of a selected subtopic."
  },
  {
@@ -2545,6 +2575,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Tesla STEM HS, Team 1, 2026 1st Place",
+  "image": "assets/events/digital-video-production.jpg",
+  "thumb": "assets/events/thumb/digital-video-production.jpg",
   "blurb": "Participants develop a digital video (with sound) and portfolio that reflects the theme for the year, which can be found on Themes and Problems."
  },
  {
@@ -2672,6 +2704,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Caleb Kim, Lynnwood HS, 2026 1st Place State, 3rd Place National",
+  "image": "assets/events/dragster-design.jpg",
+  "thumb": "assets/events/thumb/dragster-design.jpg",
   "blurb": "Participants design, produce a working drawing for, and build a CO2-powered dragster. Annual specifications can be found in the competitive event guide."
  },
  {
@@ -2837,6 +2871,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Shorecrest HS, Team 2, 2026 1st Place",
+  "image": "assets/events/drone-challenge.jpg",
+  "thumb": "assets/events/thumb/drone-challenge.jpg",
   "blurb": "Participants design, build, assemble, document, and test fly an open-source Unmanned Arial Vehicle (UAV) according to the stated annual theme/problem specifications. The required documentation portfolio must include elements such as a photographic log, wiring schematics, and a description of the programming software used. Semifinalists participate in an interview."
  },
  {
@@ -2996,6 +3032,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Tesla STEM HS, Team 1, 2026 1st Place State, 2nd Place National",
+  "image": "assets/events/engineering-design.jpg",
+  "thumb": "assets/events/thumb/engineering-design.jpg",
   "blurb": "In 2008, the National Academy of Engineering tasked an international group of leading technological thinkers to identify the Grand Challenges for Engineering (GCE) in the 21st century. Fourteen (14) game-changing goals for improving life on the planet were identified and grouped into the themes of sustainability, health, security, and joy of living. Applying leadership and 21st century skills in conjunction with the engineering design process, teams develop a solution to one of the grand challenges based on the annual theme posted on the TSA website under Competition Themes/Problems."
  },
  {
@@ -3153,6 +3191,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Mia Colombo, Gig Harbor HS, 2026 1st Place",
+  "image": "assets/events/extemporaneous-speech.jpg",
+  "thumb": "assets/events/thumb/extemporaneous-speech.jpg",
   "blurb": "Participants arrive at the event onsite, draw 3 topic cards, select 1, and put the other 2 back. They are given blank notecards, and a writing utensil. Then they have 15 minutes to write a 3-5 minute speech, using no outside resources. At the end of the 15 minutes, they deliver their speech to the judges."
  },
  {
@@ -3314,6 +3354,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Shorecrest HS, Team 2, 2026 1st Place",
+  "image": "assets/events/fashion-design-and-technology.jpg",
+  "thumb": "assets/events/thumb/fashion-design-and-technology.jpg",
   "blurb": "Participants research, design, and create a portfolio and wearable prototype that reflect the theme for the year, which can be found on Themes and Problems. Semifinalist teams participate in a presentation/interview in which they present their garment designs to judges."
  },
  {
@@ -3439,6 +3481,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Cheng Hei Yuen, Edmonds-Woodway HS, 2026 1st Place State, 2nd Place National",
+  "image": "assets/events/flight-endurance.jpg",
+  "thumb": "assets/events/thumb/flight-endurance.jpg",
   "blurb": "Participants analyze flight principles with a rubber band-powered model aircraft."
  },
  {
@@ -3677,6 +3721,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Redmond HS, Team 2, 2026 1st Place State, 2nd Place National",
+  "image": "assets/events/forensic-science.jpg",
+  "thumb": "assets/events/thumb/forensic-science.jpg",
   "blurb": "Participants take a written test of basic forensic science theory to qualify as semifinalists. Semifinalist teams will examine a mock crime scene and demonstrate their knowledge of forensic science and crime scene analysis. Students will be expected to survey the scene and use proper techniques to collect evidence from the mock crime scene. Students then will collect their data and perform a detailed written analysis of the crime scene."
  },
  {
@@ -3840,6 +3886,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Varshini Chandrasekhar, Juanita HS, 2026 1st Place",
+  "image": "assets/events/future-technology-teacher.jpg",
+  "thumb": "assets/events/thumb/future-technology-teacher.jpg",
   "blurb": "As the need for student proficiency in technology (as one area of STEM) is increasing, so is the need for qualified technology education teachers. Technology is moving at a rapid rate and those expected to teach are also expected to adopt this technology as fast as it's developed. Applying leadership and 21st century skills, participants research and prepare a video showing an application for the classroom and create a lesson plan/activity that correlates to the standards for technological literacy utilizing the application. (Use the International Technology and Engineering Educators Association ITEEA website at www.iteea.org for more information about the technology standards.) Topics also should reflect Science, Technology, Engineering, and Mathematics (STEM) initiatives and integration. Lesson plans/activities that explore knowledge, creativity, and skills in the following areas are suggested:"
  },
  {
@@ -3991,6 +4039,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "North Creek HS, Team 3, 2026 1st Place",
+  "image": "assets/events/geospatial-technology.jpg",
+  "thumb": "assets/events/thumb/geospatial-technology.jpg",
   "blurb": "Participants interpret geospatial data in multiple formats and formulate projections about the area of interest in response to an annual theme (see below). Participants develop a digital portfolio containing maps, data, and pertinent documentation. Preliminary round participants also summarize their findings in a visual infographic map. Semifinalists defend their visual infographic projections in a digital presentation."
  },
  {
@@ -4161,6 +4211,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Elsa Wang, Inglemoor HS, 2026 1st Place",
+  "image": "assets/events/infographic.jpg",
+  "thumb": "assets/events/thumb/infographic.jpg",
   "blurb": "Participants combine text, illustrations, charts, and graphics to communicate complex concepts or data quickly and effectively, helping to help convey information in a more visually appealing and accessible manner, making it easier for viewers to understand and remember key points."
  },
  {
@@ -4276,6 +4328,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Tesla STEM HS, Team 1, 2026 1st Place",
+  "image": "assets/events/manufacturing-prototype.jpg",
+  "thumb": "assets/events/thumb/manufacturing-prototype.jpg",
   "blurb": "Participants design, fabricate, and use Computer Integrated Manufacturing (CIM) to create a product that addresses the annual theme. A documentation portfolio and the completed product prototype are submitted for evaluation. Semifinalists give a product “sales pitch” and demonstration."
  },
  {
@@ -4467,6 +4521,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Tesla STEM HS, Team 1, 2026 1st Place",
+  "image": "assets/events/music-production.jpg",
+  "thumb": "assets/events/thumb/music-production.jpg",
   "blurb": "Participants create an original musical piece."
  },
  {
@@ -4658,6 +4714,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Kamiak HS, Team 1, 2026 1st Place State, 2nd Place National",
+  "image": "assets/events/on-demand-video.jpg",
+  "thumb": "assets/events/thumb/on-demand-video.jpg",
   "blurb": "Participants write, shoot, and edit a 60-second video on site during the conference after being given a line of dialogue and 3 props."
  },
  {
@@ -4822,6 +4880,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Luca West, Shorecrest HS, 2026 1st Place",
+  "image": "assets/events/photographic-technology.jpg",
+  "thumb": "assets/events/thumb/photographic-technology.jpg",
   "blurb": "Participants demonstrate understanding of and expertise in using photographic and imaging technology processes to convey a message based on an annual theme. Semifinalists capture and edit photographs, and then present them to the judges onsite."
  },
  {
@@ -4945,6 +5005,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Alice Chen, Redmond HS, 2026 1st Place",
+  "image": "assets/events/prepared-presentation.jpg",
+  "thumb": "assets/events/thumb/prepared-presentation.jpg",
   "blurb": "Participants deliver an oral presentation, using a digital slide deck, on an annual topic. New semifinal round will provide new 24 hour topic for semifinalists."
  },
  {
@@ -5119,6 +5181,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Poppy Hanson, Stanwood HS, 2026 1st Place",
+  "image": "assets/events/promotional-design.jpg",
+  "thumb": "assets/events/thumb/promotional-design.jpg",
   "blurb": "Participants use computerized graphic communications layout and design skills in the production of a promotional resource for TSA."
  },
  {
@@ -5244,6 +5308,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Shorecrest HS, Team 2, 2026 1st Place",
+  "image": "assets/events/robotics.jpg",
+  "thumb": "assets/events/thumb/robotics.jpg",
   "blurb": "The mission of your team is to design, build, assemble, and a robot that can complete landing, dropping, identifying and picking up tasks of varying difficulty in a course designed to test the handling, maneuverability, hardware capabilities, and piloting of your robot. The event will consist of a pre-inspection and check-in of the team members, robot and all equipment associated with the control of the robot."
  },
  {
@@ -5411,6 +5477,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Lynnwood HS, Team 1, 2026 1st Place",
+  "image": "assets/events/senior-solar-sprint.jpg",
+  "thumb": "assets/events/thumb/senior-solar-sprint.jpg",
   "blurb": "In the Senior Solar Sprint (SSS) competition, students apply scientific understanding, creativity, experimentation, and teamwork to design, build, and race a model solar vehicle that carries a payload; documentation of the process is required."
  },
  {
@@ -5591,6 +5659,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Skyline HS, Team 1, 2026 1st Place",
+  "image": "assets/events/silent-film.jpg",
+  "thumb": "assets/events/thumb/silent-film.jpg",
   "blurb": "Participants use video production skills to create a “silent” movie and a musical score to accompany the film. Silent films encourage students to think about music and its application to other forms of art and technology."
  },
  {
@@ -5742,6 +5812,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "North Creek HS, Team 1, 2026 1st Place State, 2nd Place National",
+  "image": "assets/events/software-development.jpg",
+  "thumb": "assets/events/thumb/software-development.jpg",
   "blurb": "Participants use knowledge of cutting-edge technologies, algorithm design, problem-solving principles, effective communication, and collaborative teamwork to design, implement, test, and document a software development project of educational or social value."
  },
  {
@@ -5908,6 +5980,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Shorecrest HS, Team 1, 2026 1st Place",
+  "image": "assets/events/stem-mass-media.jpg",
+  "thumb": "assets/events/thumb/stem-mass-media.jpg",
   "blurb": "Applying leadership and 21st century skills, participants utilize written and verbal communication skills designed for a mass audience to convey a news story revolving around a designated theme in both a video broadcast (preliminary) and a digital written format (semifinals). Participants must demonstrate a strong understanding of journalism etiquette and common practices of the field."
  },
  {
@@ -6040,6 +6114,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Mountlake Terrace HS, Team 5, 2026 1st Place",
+  "image": "assets/events/structural-design-and-engineering.jpg",
+  "thumb": "assets/events/thumb/structural-design-and-engineering.jpg",
   "blurb": "Participants work as a team to build a designated structure using criteria from the annual challenge. Teams apply the principles of structural design and engineering through research, design, construction, destructive testing, and assessment to determine the design efficiency of the structure."
  },
  {
@@ -6173,6 +6249,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Juanita HS, Team 1, 2026 1st Place",
+  "image": "assets/events/system-control-technology.jpg",
+  "thumb": "assets/events/thumb/system-control-technology.jpg",
   "blurb": "Participants work on site to develop a computer-controlled model-solution to a problem, typically one from an industrial setting. Teams analyze the problem, build a computer-controlled mechanical model, program the model, explain the program and mechanical features of the model-solution, and write instructions for evaluators to operate the device."
  },
  {
@@ -6317,6 +6395,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Gig Harbor HS, 2026 1st Place",
+  "image": "assets/events/technology-bowl.jpg",
+  "thumb": "assets/events/thumb/technology-bowl.jpg",
   "blurb": "Participants demonstrate their knowledge of TSA and concepts addressed in the technology content standards by completing a written, objective test; semifinalist teams participate in question/response, head-to-head team competition."
  },
  {
@@ -6480,6 +6560,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Redmond HS, Team 1, 2026 1st Place",
+  "image": "assets/events/technology-problem-solving.jpg",
+  "thumb": "assets/events/thumb/technology-problem-solving.jpg",
   "blurb": "Participants use their skills in problem solving to develop a finite solution to a problem provided on site."
  },
  {
@@ -6595,6 +6677,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Anvie Sana, Tesla STEM HS, 2026 1st Place",
+  "image": "assets/events/transportation-modeling.jpg",
+  "thumb": "assets/events/thumb/transportation-modeling.jpg",
   "blurb": "Participants research, design, and produce a scale model of a vehicle that fits the annual design challenge."
  },
  {
@@ -6817,6 +6901,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Shorecrest HS, Team 1, 2026 1st Place",
+  "image": "assets/events/video-game-design.jpg",
+  "thumb": "assets/events/thumb/video-game-design.jpg",
   "blurb": "Participants develop a game that focuses on the subject of their choice. The game must have high artistic, educational, and social value and be interesting, exciting, visually appealing, and intellectually challenging."
  },
  {
@@ -6961,6 +7047,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Eastlake HS, Team 1, 2026 1st Place",
+  "image": "assets/events/virtual-reality-visualization.jpg",
+  "thumb": "assets/events/thumb/virtual-reality-visualization.jpg",
   "blurb": "Participants use video and 3D computer graphics tools and design processes to create a two-to-three-minute VR visualization (accompanied by supporting documentation) that addresses the annual theme. Semifinalists deliver a presentation about their visualization and participate in an interview."
  },
  {
@@ -7137,6 +7225,8 @@ window.TSA_EVENTS = [
    }
   ],
   "featured": "Bothell HS, Team 1, 2026 1st Place",
+  "image": "assets/events/webmaster.jpg",
+  "thumb": "assets/events/thumb/webmaster.jpg",
   "blurb": "Participants design, build, and launch a website that features the chapter’s ability to research and present a given topic pertaining to technology. Semifinalists participate in an onsite interview to demonstrate the knowledge and expertise gained during the development of the website—with an emphasis on web design methods and practices, as well as their research for the annual design topic."
  }
 ];

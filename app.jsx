@@ -961,17 +961,29 @@ const EventBlocks = ({ blocks }) => {
 
 const EventCard = ({ event, onOpen }) =>
 <article className="site-event-card">
-    <div className="site-event-card__head">
-      <h3 className="site-event-card__title">{event.title}</h3>
-      {event.waOnly && <span className="site-event-card__wa">WA only</span>}
-    </div>
-    <p className="site-event-card__blurb">{event.blurb}</p>
+    {event.thumb &&
     <a
-    className="site-event-card__more"
-    href="#"
-    onClick={(e) => {e.preventDefault();onOpen(event.slug);}}>
-      View event <Icon name="arrow-right" size={14} />
-    </a>
+      className="site-event-card__media"
+      href="#"
+      tabIndex={-1}
+      aria-hidden="true"
+      onClick={(e) => {e.preventDefault();onOpen(event.slug);}}>
+        <img src={event.thumb} alt="" loading="lazy" />
+      </a>
+    }
+    <div className="site-event-card__body">
+      <div className="site-event-card__head">
+        <h3 className="site-event-card__title">{event.title}</h3>
+        {event.waOnly && <span className="site-event-card__wa">WA only</span>}
+      </div>
+      <p className="site-event-card__blurb">{event.blurb}</p>
+      <a
+      className="site-event-card__more"
+      href="#"
+      onClick={(e) => {e.preventDefault();onOpen(event.slug);}}>
+        View event <Icon name="arrow-right" size={14} />
+      </a>
+    </div>
   </article>;
 
 
@@ -1078,17 +1090,22 @@ const EventDetailPage = ({ slug, onBack }) => {
             <h1>{event.title}</h1>
             {event.waOnly && <span className="site-event-card__wa">WA only</span>}
           </div>
-          {event.featured &&
-          <p className="site-event__featured">
-              <Icon name="trophy" size={14} style={{ verticalAlign: "-2px", marginRight: 6 }} />
-              Featured entry: {event.featured}
-            </p>
-          }
         </div>
       </div>
 
       <section className="es-section">
         <div className="es-container site-event__body">
+          {event.image &&
+          <figure className="site-event__figure">
+              <img src={event.image} alt={`${event.title} — winning entry`} />
+              {event.featured &&
+            <figcaption>
+                  <Icon name="trophy" size={13} style={{ verticalAlign: "-2px", marginRight: 6 }} />
+                  {event.featured}
+                </figcaption>
+            }
+            </figure>
+          }
           {event.sections.map((s, i) =>
           <div key={i} className="site-event__section">
               <h2 className="site-event__heading">{s.heading}</h2>
