@@ -298,9 +298,9 @@
 .site-officer__avatar.has-photo img {
   width: 100%;
   height: 100%;
+  /* Officer photos are stored as square, face-centred crops, so they can
+     simply fill the circle. Crop new ones the same way before adding them. */
   object-fit: cover;
-  /* Officer portraits are head-and-shoulders, so bias the crop upward. */
-  object-position: 50% 25%;
   display: block;
 }
 .site-officer__avatar {
