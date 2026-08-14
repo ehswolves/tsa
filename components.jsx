@@ -67,6 +67,7 @@ const Header = ({ active, onNavigate }) => {
   const [open, setOpen] = React.useState(false);
   const items = [
   { id: "home", label: "Home" },
+  { id: "events", label: "Events" },
   { id: "announcements", label: "Announcements" },
   { id: "resources", label: "Resources" }];
 
@@ -120,6 +121,7 @@ const Footer = ({ onNavigate }) =>
         <div>
           <div className="es-footer__col-head">Chapter</div>
           <a href="#" onClick={(e) => {e.preventDefault();onNavigate("home");}}>Home</a>
+          <a href="#" onClick={(e) => {e.preventDefault();onNavigate("events");}}>Events</a>
           <a href="#" onClick={(e) => {e.preventDefault();onNavigate("announcements");}}>Announcements</a>
           <a href="#" onClick={(e) => {e.preventDefault();onNavigate("resources");}}>Resources</a>
         </div>

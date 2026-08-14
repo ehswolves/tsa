@@ -901,21 +901,254 @@ const ResourcesPage = () => {
 
 
 /* =========================================================================
+   EVENTS
+   ========================================================================= */
+
+/* Populated by events.js, which loads before this file. */
+const EVENTS = window.TSA_EVENTS || [];
+
+const WA_TSA_EVENTS_URL = "https://www.washingtontsa.org/high-school-events";
+
+/* Links inside event copy point at rubrics, upload portals, and coordinators.
+   Mail links stay in the mail app; everything else opens in a new tab. */
+const EventLink = ({ href, children }) => {
+  const isMail = href.startsWith("mailto:");
+  return (
+    <a
+      className="site-event__link"
+      href={href}
+      target={isMail ? undefined : "_blank"}
+      rel={isMail ? undefined : "noopener noreferrer"}>
+      {children}
+      {!isMail && <Icon name="external-link" size={12} style={{ marginLeft: 4, verticalAlign: "-1px" }} />}
+    </a>);
+
+};
+
+const EventText = ({ block }) =>
+block.href ? <EventLink href={block.href}>{block.text}</EventLink> : <>{block.text}</>;
+
+/* The source content is a flat run of headings, paragraphs, and list items;
+   consecutive list items get collected back into a single list. */
+const EventBlocks = ({ blocks }) => {
+  const out = [];
+  let list = [];
+
+  const flush = (key) => {
+    if (!list.length) return;
+    out.push(
+      <ul key={`ul-${key}`} className="site-event__list">
+        {list.map((b, i) =>
+        <li key={i} className={b.depth ? "is-nested" : ""}><EventText block={b} /></li>
+        )}
+      </ul>);
+
+    list = [];
+  };
+
+  blocks.forEach((b, i) => {
+    if (b.kind === "li") {list.push(b);return;}
+    flush(i);
+    if (b.kind === "h3") {
+      out.push(<h3 key={i} className="site-event__subhead">{b.text}</h3>);
+    } else {
+      out.push(<p key={i} className="site-event__p"><EventText block={b} /></p>);
+    }
+  });
+  flush("end");
+  return <>{out}</>;
+};
+
+const EventCard = ({ event, onOpen }) =>
+<article className="site-event-card">
+    <div className="site-event-card__head">
+      <h3 className="site-event-card__title">{event.title}</h3>
+      {event.waOnly && <span className="site-event-card__wa">WA only</span>}
+    </div>
+    <p className="site-event-card__blurb">{event.blurb}</p>
+    <a
+    className="site-event-card__more"
+    href="#"
+    onClick={(e) => {e.preventDefault();onOpen(event.slug);}}>
+      View event <Icon name="arrow-right" size={14} />
+    </a>
+  </article>;
+
+
+const EventsPage = ({ onOpen }) => {
+  const [query, setQuery] = useState("");
+  const [waOnly, setWaOnly] = useState(false);
+
+  const q = query.trim().toLowerCase();
+  const filtered = EVENTS.filter((e) =>
+  (!waOnly || e.waOnly) && (
+  !q || e.title.toLowerCase().includes(q) || (e.blurb || "").toLowerCase().includes(q)));
+
+  const waCount = EVENTS.filter((e) => e.waOnly).length;
+
+  return (
+    <>
+      <div className="es-pagehead">
+        <div className="es-container">
+          <Eyebrow>Competitive Events</Eyebrow>
+          <h1>Every high school event, in one place</h1>
+          <p>
+            The full Washington TSA high school event list — what each event is, when its
+            deadlines fall, and what you have to submit. Start here to pick what you want
+            to compete in, then use the intra‑chapter sheet to find your team.
+          </p>
+          <div className="site-pagehead-meta">
+            <span><Icon name="trophy" size={14} /> {EVENTS.length} events</span>
+            <span><Icon name="map-pin" size={14} /> {waCount} Washington‑only</span>
+          </div>
+        </div>
+      </div>
+
+      <section className="es-section">
+        <div className="es-container">
+          <div className="site-ann-toolbar">
+            <div className="site-ann-search">
+              <Icon name="search" size={16} />
+              <input
+                type="search"
+                placeholder="Search events…"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)} />
+
+            </div>
+            <button
+              type="button"
+              className={`site-event-filter ${waOnly ? "is-active" : ""}`}
+              aria-pressed={waOnly}
+              onClick={() => setWaOnly((v) => !v)}>
+              <Icon name="map-pin" size={14} /> Washington‑only
+            </button>
+          </div>
+
+          {filtered.length === 0 ?
+          <p className="site-event-empty">No events match “{query}”.</p> :
+
+          <div className="site-event-grid">
+              {filtered.map((e) =>
+            <EventCard key={e.slug} event={e} onOpen={onOpen} />
+            )}
+            </div>
+          }
+
+          <p className="site-event-source">
+            Mirrored from{" "}
+            <a href={WA_TSA_EVENTS_URL} target="_blank" rel="noopener noreferrer">
+              Washington TSA high school events <Icon name="external-link" size={12} style={{ verticalAlign: "-1px" }} />
+            </a>
+            {" "}so you can browse it here. If anything below disagrees with the official
+            page, the official page wins.
+          </p>
+        </div>
+      </section>
+    </>);
+
+};
+
+const EventDetailPage = ({ slug, onBack }) => {
+  const event = EVENTS.find((e) => e.slug === slug);
+
+  if (!event) {
+    return (
+      <div className="es-pagehead">
+        <div className="es-container">
+          <h1>Event not found</h1>
+          <p>That event isn’t in the list.</p>
+          <Button variant="secondary" onClick={onBack}>Back to all events</Button>
+        </div>
+      </div>);
+
+  }
+
+  return (
+    <>
+      <div className="es-pagehead">
+        <div className="es-container">
+          <a
+            className="site-event__back"
+            href="#"
+            onClick={(e) => {e.preventDefault();onBack();}}>
+            ← All events
+          </a>
+          <div className="site-event__titlerow">
+            <h1>{event.title}</h1>
+            {event.waOnly && <span className="site-event-card__wa">WA only</span>}
+          </div>
+          {event.featured &&
+          <p className="site-event__featured">
+              <Icon name="trophy" size={14} style={{ verticalAlign: "-2px", marginRight: 6 }} />
+              Featured entry: {event.featured}
+            </p>
+          }
+        </div>
+      </div>
+
+      <section className="es-section">
+        <div className="es-container site-event__body">
+          {event.sections.map((s, i) =>
+          <div key={i} className="site-event__section">
+              <h2 className="site-event__heading">{s.heading}</h2>
+              <EventBlocks blocks={s.blocks} />
+            </div>
+          )}
+
+          <div className="site-event__foot">
+            <p>
+              This page mirrors{" "}
+              <a href={event.sourceUrl} target="_blank" rel="noopener noreferrer">
+                the official Washington TSA page for {event.title}
+                <Icon name="external-link" size={12} style={{ marginLeft: 4, verticalAlign: "-1px" }} />
+              </a>
+              , which is authoritative for rules and deadlines.
+            </p>
+            <Button variant="secondary" onClick={onBack}>← All events</Button>
+          </div>
+        </div>
+      </section>
+    </>);
+
+};
+
+
+/* =========================================================================
    App shell
    ========================================================================= */
 
-const PAGE_LABELS = { home: "Home", announcements: "Announcements", resources: "Resources" };
+const PAGE_LABELS = { home: "Home", events: "Events", announcements: "Announcements", resources: "Resources" };
 
 const App = () => {
   const [page, setPage] = useState("home");
+  const [eventSlug, setEventSlug] = useState(null);
+
+  const navigate = (id) => {setEventSlug(null);setPage(id);};
+  const openEvent = (slug) => {
+    setEventSlug(slug);
+    window.scrollTo({ top: 0, behavior: "instant" });
+  };
+  const closeEvent = () => {
+    setEventSlug(null);
+    window.scrollTo({ top: 0, behavior: "instant" });
+  };
+
+  const label = page === "events" && eventSlug ?
+  (EVENTS.find((e) => e.slug === eventSlug) || {}).title || "Events" :
+  PAGE_LABELS[page] || "Home";
+
   return (
     <FileViewerProvider>
-      <div data-screen-label={`Eastlake TSA — ${PAGE_LABELS[page] || "Home"}`}>
-        <Header active={page} onNavigate={setPage} />
+      <div data-screen-label={`Eastlake TSA — ${label}`}>
+        <Header active={page} onNavigate={navigate} />
         {page === "home" && <HomePage />}
+        {page === "events" && (eventSlug ?
+        <EventDetailPage slug={eventSlug} onBack={closeEvent} /> :
+        <EventsPage onOpen={openEvent} />)}
         {page === "announcements" && <AnnouncementsPage />}
         {page === "resources" && <ResourcesPage />}
-        <Footer onNavigate={setPage} />
+        <Footer onNavigate={navigate} />
       </div>
     </FileViewerProvider>);
 
