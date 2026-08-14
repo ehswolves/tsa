@@ -114,27 +114,33 @@ const OFFICERS = [
 },
 {
   name: "Sayuri Kuruppu",
-  role: "VP of Competition"
+  role: "VP of Competition",
+  email: "1053337@lwsd.org"
 },
 {
   name: "Anika Bhadra",
-  role: "VP of Competition"
+  role: "VP of Competition",
+  email: "1060112@lwsd.org"
 },
 {
   name: "Ila Lu",
-  role: "VP of Communication"
+  role: "VP of Communication",
+  email: "1053868@lwsd.org"
 },
 {
   name: "Shivam Chowdhary",
-  role: "VP of Finance"
+  role: "VP of Finance",
+  email: "1058748@lwsd.org"
 },
 {
   name: "Saahil Dugar",
-  role: "VP of Mentorship"
+  role: "VP of Mentorship",
+  email: "1051549@lwsd.org"
 },
 {
   name: "Yash Nagarahalli",
-  role: "VP of Mentorship"
+  role: "VP of Mentorship",
+  email: "1066968@lwsd.org"
 }];
 
 
