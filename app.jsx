@@ -108,34 +108,33 @@ const OFFICERS = [
   isAdvisor: true
 },
 {
-  name: "Saranya Agrawal",
-  role: "President",
-  email: "1098823@lwsd.org"
-},
-{
-  name: "Namit Jain",
-  role: "VP of Competition",
-  email: "1042986@lwsd.org"
-},
-{
-  name: "Eeshani Elkunchwar",
-  role: "VP of Finance",
-  email: "1062046@lwsd.org"
-},
-{
-  name: "Gatha Vaghela",
-  role: "VP of Communication",
-  email: "1043578@lwsd.org"
-},
-{
-  name: "Anirudh Aravind",
-  role: "VP of Mentorship",
-  email: "1094710@lwsd.org"
-},
-{
   name: "Tanya Acharya",
-  role: "VP of Membership",
+  role: "President",
   email: "1046594@lwsd.org"
+},
+{
+  name: "Sayuri Kuruppu",
+  role: "VP of Competition"
+},
+{
+  name: "Anika Bhadra",
+  role: "VP of Competition"
+},
+{
+  name: "Ila Lu",
+  role: "VP of Communication"
+},
+{
+  name: "Shivam Chowdhary",
+  role: "VP of Finance"
+},
+{
+  name: "Saahil Dugar",
+  role: "VP of Mentorship"
+},
+{
+  name: "Yash Nagarahalli",
+  role: "VP of Mentorship"
 }];
 
 
@@ -442,7 +441,7 @@ const Officers = () =>
     <div className="es-container">
       <div className="es-section-title">
         <div>
-          <Eyebrow>Officers · 2025–26</Eyebrow>
+          <Eyebrow>Officers · 2026–27</Eyebrow>
           <h2 className="site-h2">The people running this</h2>
         </div>
         <p style={{ maxWidth: 360, fontFamily: "var(--font-body)", fontSize: 14, color: "var(--ink-500)", margin: 0 }}>
@@ -461,9 +460,11 @@ const Officers = () =>
                 {o.titleSuffix &&
                   <div className="site-officer__suffix">{o.titleSuffix}</div>
                 }
-                <a className="site-officer__email" href={`mailto:${o.email}`}>
-                  <Icon name="mail" size={13} /> {o.email}
-                </a>
+                {o.email &&
+                  <a className="site-officer__email" href={`mailto:${o.email}`}>
+                    <Icon name="mail" size={13} /> {o.email}
+                  </a>
+                }
               </div>
             </article>);
 
