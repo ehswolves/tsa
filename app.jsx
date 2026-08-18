@@ -163,7 +163,7 @@ const DATES = [
   detail: "Washington TSA",
   title: "WA TSA State",
   range: "Apr 7 – 10, 2027",
-  note: "Falls during Spring Break — sorry, not our fault 😢. Teams confirmed in late winter.",
+  note: "Wednesday through Saturday during the school year — sort out missed work with your teachers ahead of time. Teams confirmed in late winter.",
   variant: "crimson"
 },
 {
@@ -389,7 +389,7 @@ const Dates = () =>
           <h2 className="site-h2">The competition calendar</h2>
         </div>
         <p style={{ maxWidth: 320, fontFamily: "var(--font-body)", fontSize: 14, color: "var(--ink-500)", margin: 0 }}>
-          Three big checkpoints in the TSA year. Plan around them — especially States, which falls during Spring Break.
+          Three big checkpoints in the TSA year. Plan around them — especially States, which lands mid‑week during the school year.
         </p>
       </div>
       <div className="site-dates">
