@@ -116,7 +116,8 @@ const OFFICERS = [
 {
   name: "Sayuri Kuruppu",
   role: "VP of Competition",
-  email: "1053337@lwsd.org"
+  email: "1053337@lwsd.org",
+  photo: "assets/officers/sayuri-kuruppu.jpg"
 },
 {
   name: "Anika Bhadra",
@@ -133,12 +134,14 @@ const OFFICERS = [
 {
   name: "Shivam Chowdhary",
   role: "VP of Finance",
-  email: "1058748@lwsd.org"
+  email: "1058748@lwsd.org",
+  photo: "assets/officers/shivam-chowdhary.jpg"
 },
 {
   name: "Saahil Dugar",
   role: "VP of Mentorship",
-  email: "1051549@lwsd.org"
+  email: "1051549@lwsd.org",
+  photo: "assets/officers/saahil-dugar.jpg"
 },
 {
   name: "Yash Nagarahalli",
