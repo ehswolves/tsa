@@ -980,6 +980,16 @@ const EventBlocks = ({ blocks }) => {
   return <>{out}</>;
 };
 
+/* "Team of 2-6", "Individual", and so on — how many people an entry takes. */
+const entryLabel = (e) => {
+  const range = e.minMembers === e.maxMembers ?
+  `${e.minMembers}` :
+  `${e.minMembers}\u2013${e.maxMembers}`;
+  if (e.entryType === "individual") return "Individual";
+  if (e.entryType === "either") return `Individual or team of ${e.maxMembers}`;
+  return `Team of ${range}`;
+};
+
 const EventCard = ({ event, onOpen }) =>
 <article className="site-event-card">
     {event.thumb &&
@@ -997,6 +1007,11 @@ const EventCard = ({ event, onOpen }) =>
         <h3 className="site-event-card__title">{event.title}</h3>
         {event.waOnly && <span className="site-event-card__wa">WA only</span>}
       </div>
+      <div className="site-event-card__meta">
+        <span className={`site-event-tag site-event-tag--${event.entryType}`}>
+          <Icon name="users" size={12} /> {entryLabel(event)}
+        </span>
+      </div>
       <p className="site-event-card__blurb">{event.blurb}</p>
       <a
       className="site-event-card__more"
@@ -1008,16 +1023,41 @@ const EventCard = ({ event, onOpen }) =>
   </article>;
 
 
+const ENTRY_TYPES = [
+{ id: "all", label: "All" },
+{ id: "individual", label: "Individual" },
+{ id: "team", label: "Team" }];
+
+
+const TEAM_SIZES = [1, 2, 3, 4, 5, 6];
+
 const EventsPage = ({ onOpen }) => {
   const [query, setQuery] = useState("");
   const [waOnly, setWaOnly] = useState(false);
+  const [entryType, setEntryType] = useState("all");
+  const [size, setSize] = useState(null);
 
   const q = query.trim().toLowerCase();
+
+  /* Events marked "either" can be entered alone or as a team, so they count
+     under both headings rather than needing a category of their own. */
+  const matchesType = (e) =>
+  entryType === "all" || e.entryType === entryType || e.entryType === "either";
+
+  /* Size asks "could this many people enter together?", so an event matches
+     when the number falls inside its allowed range. */
+  const matchesSize = (e) =>
+  size === null || size >= e.minMembers && size <= e.maxMembers;
+
   const filtered = EVENTS.filter((e) =>
-  (!waOnly || e.waOnly) && (
+  (!waOnly || e.waOnly) &&
+  matchesType(e) &&
+  matchesSize(e) && (
   !q || e.title.toLowerCase().includes(q) || (e.blurb || "").toLowerCase().includes(q)));
 
   const waCount = EVENTS.filter((e) => e.waOnly).length;
+  const filtersOn = waOnly || entryType !== "all" || size !== null || q;
+  const clearAll = () => {setQuery("");setWaOnly(false);setEntryType("all");setSize(null);};
 
   return (
     <>
@@ -1058,8 +1098,61 @@ const EventsPage = ({ onOpen }) => {
             </button>
           </div>
 
+          <div className="site-event-filters">
+            <div className="site-event-filtergroup">
+              <span className="site-event-filtergroup__label">Entry</span>
+              <div className="site-event-seg" role="group" aria-label="Entry type">
+                {ENTRY_TYPES.map((t) =>
+                <button
+                  key={t.id}
+                  type="button"
+                  className={`site-event-seg__btn ${entryType === t.id ? "is-active" : ""}`}
+                  aria-pressed={entryType === t.id}
+                  onClick={() => setEntryType(t.id)}>
+                    {t.label}
+                  </button>
+                )}
+              </div>
+            </div>
+
+            <div className="site-event-filtergroup">
+              <span className="site-event-filtergroup__label">People in your entry</span>
+              <div className="site-event-seg" role="group" aria-label="Number of people">
+                <button
+                  type="button"
+                  className={`site-event-seg__btn ${size === null ? "is-active" : ""}`}
+                  aria-pressed={size === null}
+                  onClick={() => setSize(null)}>
+                  Any
+                </button>
+                {TEAM_SIZES.map((n) =>
+                <button
+                  key={n}
+                  type="button"
+                  className={`site-event-seg__btn ${size === n ? "is-active" : ""}`}
+                  aria-pressed={size === n}
+                  onClick={() => setSize(n)}>
+                    {n}
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+
+          <div className="site-event-resultbar">
+            <span>
+              Showing <strong>{filtered.length}</strong> of {EVENTS.length} events
+              {size !== null && ` that ${size === 1 ? "one person" : `${size} people`} can enter`}
+            </span>
+            {filtersOn &&
+            <button type="button" className="site-event-clear" onClick={clearAll}>
+                Clear filters
+              </button>
+            }
+          </div>
+
           {filtered.length === 0 ?
-          <p className="site-event-empty">No events match “{query}”.</p> :
+          <p className="site-event-empty">No events match those filters.</p> :
 
           <div className="site-event-grid">
               {filtered.map((e) =>
