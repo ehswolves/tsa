@@ -1,21 +1,27 @@
 #!/usr/bin/env python3
 """Turn the Canvas announcements Atom feed into announcements.js.
 
-The feed URL is an enrollment-scoped secret: anyone holding it can read the
-course's announcements. It is therefore read from the CANVAS_FEED_URL
-environment variable and never written into the generated file or committed.
+The feed URL below is an enrollment-scoped token. It is kept in the repo
+deliberately: it grants read access to the chapter announcements, which this
+site publishes anyway. If it ever needs revoking, reset the feed URL in
+Canvas and replace it here.
 
-Usage:  CANVAS_FEED_URL='https://…' python3 scripts/fetch_announcements.py
+Set CANVAS_FEED_URL to override it, for example to test against another
+course.
+
+Usage:  python3 scripts/fetch_announcements.py
 """
 import html
 import json
 import os
 import re
-import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from html.parser import HTMLParser
+
+FEED_URL = ('https://lwsd414.instructure.com/feeds/announcements/'
+            'enrollment_e5a0080b-9d45-4ba1-b55b-0ab17ebc4b71.atom')
 
 NS = {'a': 'http://www.w3.org/2005/Atom'}
 OUT = os.path.join(os.path.dirname(__file__), '..', 'announcements.js')
@@ -93,10 +99,7 @@ def titlecase(name):
 
 
 def main():
-    url = os.environ.get('CANVAS_FEED_URL', '').strip()
-    if not url:
-        sys.exit('CANVAS_FEED_URL is not set. Refusing to run without the feed '
-                 'URL, which must come from the environment and never the repo.')
+    url = os.environ.get('CANVAS_FEED_URL', '').strip() or FEED_URL
 
     with urllib.request.urlopen(url, timeout=60) as r:
         xml_bytes = r.read()

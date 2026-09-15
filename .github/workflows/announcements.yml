@@ -1,9 +1,9 @@
 name: Refresh announcements
 
 # The Canvas feed can't be read from the browser: it sends no CORS headers,
-# and its URL is an enrollment-scoped secret that must stay out of the repo.
-# So the fetch happens here instead, and only the resulting posts are
-# committed.
+# so a fetch from the published site is blocked no matter where the URL
+# lives. The fetch therefore happens here, and the resulting posts are
+# committed for the site to load.
 
 on:
   schedule:
@@ -25,15 +25,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Fetch the feed
-        env:
-          CANVAS_FEED_URL: ${{ secrets.CANVAS_FEED_URL }}
-        run: |
-          if [ -z "$CANVAS_FEED_URL" ]; then
-            echo "::error::CANVAS_FEED_URL secret is not set. Add it under" \
-                 "Settings -> Secrets and variables -> Actions."
-            exit 1
-          fi
-          python3 scripts/fetch_announcements.py
+        run: python3 scripts/fetch_announcements.py
 
       - name: Commit if the announcements changed
         run: |
