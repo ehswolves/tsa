@@ -1455,3 +1455,16 @@
 }
 .site-event-tag--individual { color: var(--navy-700); border-color: var(--navy-100); background: var(--navy-50); }
 .site-event-tag--team { color: var(--crimson-700); border-color: var(--crimson-100); background: var(--crimson-50); }
+
+.site-post__source {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 14px;
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--navy-700);
+  text-decoration: none;
+}
+.site-post__source:hover { color: var(--crimson-600); text-decoration: underline; }

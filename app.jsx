@@ -208,116 +208,10 @@ const TSA_REGISTRATION_URL = "https://lwsd-my.sharepoint.com/:x:/r/personal/1098
 const CANVAS_ROSTER_URL = "https://lwsd-my.sharepoint.com/:x:/r/personal/1098823_lwsd_org/Documents/12th%20Grade/TSA%20Officers/25-26/General/tsa%20canvas%20student%20roster.xlsx?d=w1a56f7d057124a88bed9aca567a9959b&csf=1&web=1&e=GBZH4w";
 const OFFICER_GROUPINGS_URL = "https://lwsd-my.sharepoint.com/:x:/r/personal/1098823_lwsd_org/Documents/12th%20Grade/TSA%20Officers/25-26/General/Officer%20Groupings%202025-2026.xlsx?d=w26d882a80c9149b0bda1f1128db3846f&csf=1&web=1&e=pc4kjS";
 
-const ANNOUNCEMENTS = [
-{
-  id: "officers-26-27",
-  title: "EHS TSA 26‑27 Officer Applications",
-  eyebrow: "Discussion Topic",
-  author: "Saranya Agrawal",
-  initials: "SA",
-  role: "Author · Teacher",
-  posted: "Posted May 11, 4:59 PM",
-  closed: true,
-  paragraphs: [
-  <>If you are interested in applying for the Eastlake TSA officer team, applications are open from today till <strong>Saturday (5/16) at 11:59 PM</strong>. We will <strong>NOT</strong> be accepting late submissions.</>,
-  <>After the initial round of applications, we will hold interviews and finally announce the new officer team in the beginning of June!</>,
-  <>Application: <a href={OFFICER_APP_URL} target="_blank" rel="noopener noreferrer">2026‑27 TSA Officer Application — Fill out form</a></>],
-
-  replies: [
-  {
-    author: "Saranya Agrawal",
-    initials: "SA",
-    date: "May 15, 10:31 PM",
-    content: "REMINDER: officer applications are due tomorrow night!"
-  }]
-
-},
-{
-  id: "nationals-early-entry",
-  title: "Nationals Early Entry Submissions",
-  eyebrow: "Discussion Topic",
-  author: "Saranya Agrawal",
-  initials: "SA",
-  role: "Author · Teacher",
-  posted: "Posted May 11, 4:50 PM",
-  closed: true,
-  paragraphs: [
-  <>If you are participating in TSA Nationals and have an event requiring an <strong>EARLY ENTRY SUBMISSION</strong>, the portal is open from today to <strong>Wednesday at 11:59 PM ET</strong> (NOT PST). They will not be accepting late submissions, so please get it in ASAP!</>,
-  <>You can find the instructions to submit in the PDF attached. Here is the link to the portal: <a href={NATIONALS_PORTAL} target="_blank" rel="noopener noreferrer">{NATIONALS_PORTAL}</a></>],
-
-  attachments: [
-  { name: "competition-component-upload-instructions.pdf", href: "#" }]
-
-},
-{
-  id: "grab-projects",
-  title: "GRAB YOUR PROJECTS!",
-  eyebrow: "Discussion Topic",
-  author: "Saranya Agrawal",
-  initials: "SA",
-  role: "Author · Teacher",
-  posted: "Posted Apr 28, 9:18 PM",
-  closed: true,
-  paragraphs: [
-  <>If you had a project that you had put in the red truck to bring back from States, please grab it from <strong>Ms. Pixley's room (C112)</strong> ASAP! There are still a bunch of projects there.</>]
-
-},
-{
-  id: "correct-rubrics",
-  title: "Correct Rubrics",
-  eyebrow: "Discussion Topic",
-  author: "Christina Pixley",
-  initials: "CP",
-  role: "Author · Teacher",
-  posted: "Posted Apr 26, 6:27 AM",
-  closed: true,
-  paragraphs: [
-  <>Hi all,</>,
-  <>It seems there was an issue with some of the rubrics. Please find them <a href={CORRECT_RUBRICS_URL} target="_blank" rel="noopener noreferrer">HERE</a> and let me know if you have any issues.</>]
-
-},
-{
-  id: "states-rubrics-nationals-updates",
-  title: "States Rubrics + Nationals Updates",
-  eyebrow: "Discussion Topic",
-  author: "Saranya Agrawal",
-  initials: "SA",
-  role: "Author · Teacher",
-  posted: "Posted Apr 22, 10:17 PM",
-  closed: true,
-  paragraphs: [
-  <>Hi everyone,</>,
-  <>Here are your rubrics for TSA States: <a href={STATES_RUBRICS_URL} target="_blank" rel="noopener noreferrer">States Rubrics!</a> Ms. Pixley has reached out if you are eligible to go to TSA Nationals :). More details about that should be going out soon.</>,
-  <>If you are a senior, the officers will be reaching out to you for your project/event content to create a compilation of all the past events + rubrics to help future members out. Please be on the lookout for that email!</>,
-  <>We will not be having regular meetings, but information about officer applications will be coming out in the next few weeks as well.</>]
-
-},
-{
-  id: "state-conference-app-reminders",
-  title: "State Conference App + Last Minute Reminders",
-  eyebrow: "Discussion Topic",
-  author: "Anirudh Aravind",
-  initials: "AA",
-  role: "Author · Teacher",
-  posted: "Posted Apr 14, 10:46 AM",
-  closed: true,
-  paragraphs: [
-  <>Hello everyone,</>,
-  <>Hope you are having a good spring break. Please download the WTSA State Conference Schedule in the Guidebook App using the instructions below. This will have the timings for all events as well as the semifinalists for each event when they are announced. <strong>Some events will happen tomorrow right after we arrive, so please download the app and check ASAP.</strong></>,
-  <><a href={STATE_CONFERENCE_URL} target="_blank" rel="noopener noreferrer">2026 State Conference — Washington Technology Student Association</a></>,
-  <>Also here are some last‑minute reminders:</>],
-
-  bullets: [
-  <>Portfolios should <strong>not</strong> have your names on them. You will get points taken off if they do.</>,
-  <>Portfolios should be submitted in clear plastic covers. <strong>Binders will not be accepted.</strong></>,
-  <>It is a 4‑hour bus ride to Spokane. Please bring snacks or anything else you may need.</>,
-  <>Remember to pack dress pants/shoes or any other formal wear you may need.</>],
-
-  paragraphsAfter: [
-  <>If you are not in a phone tree yet or have any additional questions, please let me know.</>,
-  <>Thank you,<br />Anirudh Aravind</>]
-
-}];
+/* Mirrored from the chapter's Canvas announcements feed into
+   announcements.js, which loads before this file. Regenerate with
+   scripts/fetch_announcements.py rather than editing posts by hand. */
+const ANNOUNCEMENTS = window.TSA_ANNOUNCEMENTS || [];
 
 
 /* =========================================================================
@@ -522,7 +416,7 @@ const AnnouncementPost = ({ post }) =>
       <div>
         <div className="site-post__author-row">
           <span className="site-post__author">{post.author}</span>
-          <span className="site-post__role-pill">{post.role}</span>
+          {post.role && <span className="site-post__role-pill">{post.role}</span>}
         </div>
         <div className="site-post__date">{post.posted}</div>
       </div>
@@ -538,15 +432,16 @@ const AnnouncementPost = ({ post }) =>
     <div className="site-post__body">
       {post.eyebrow && <div className="site-post__title-eyebrow">{post.eyebrow}: {post.title}</div>}
       <h2 className="site-post__title">{post.title}</h2>
-      <div className="site-post__content">
-        {post.paragraphs.map((p, i) => <p key={i}>{p}</p>)}
-        {post.bullets &&
-      <ul className="site-post__bullets">
-            {post.bullets.map((b, i) => <li key={i}>{b}</li>)}
-          </ul>
-      }
-        {post.paragraphsAfter && post.paragraphsAfter.map((p, i) => <p key={i}>{p}</p>)}
-      </div>
+      {/* Feed HTML is reduced to a small tag allowlist by
+          scripts/fetch_announcements.py before it reaches the page. */}
+      <div
+        className="site-post__content"
+        dangerouslySetInnerHTML={{ __html: post.html }} />
+      {post.url &&
+    <a className="site-post__source" href={post.url} target="_blank" rel="noopener noreferrer">
+          View on Canvas <Icon name="external-link" size={12} />
+        </a>
+    }
       {post.attachments &&
     <div className="site-post__attachments">
           {post.attachments.map((a, i) =>
@@ -611,7 +506,11 @@ const AnnouncementsPage = () => {
           <p>Posts from the officer team — the freshest things sit at the top. Comments are closed on official announcements; reach out to an officer directly if you have questions.</p>
           <div className="site-pagehead-meta">
             <span><Icon name="bell" size={14} /> {ANNOUNCEMENTS.length} announcements</span>
-            <span><Icon name="calendar" size={14} /> Latest: May 15, 2026</span>
+            <span><Icon name="calendar" size={14} /> Latest: {
+              ANNOUNCEMENTS.length ?
+              (ANNOUNCEMENTS[0].posted || "").replace(/^Posted\s*/, "") :
+              "—"
+              }</span>
           </div>
         </div>
       </div>
