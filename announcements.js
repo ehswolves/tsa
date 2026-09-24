@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-09-23:/discussion_topics/discussion_topic_59480",
+  "title": "Interest Meeting!",
+  "author": "Tanya Acharya",
+  "initials": "TA",
+  "published": "2026-09-23T20:52:31-07:00",
+  "posted": "Posted Sep 23, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/59480",
+  "html": "<p>Our interest meeting will be this Thursday, September 24th at 3:20 pm in the Lower Commons! Come for info about the club and competition!</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-06-22:/discussion_topics/discussion_topic_53174",
   "title": "TSA Past Project Submission",
   "author": "Anirudh Aravind",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Mar 28, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/46476",
   "html": "<p>1. <strong>Project Transportation Form</strong> - If you need additional space for a trifold, prototype, model, etc. and will not be able to bring it on the buses please fill out this form to ensure that Ms. Pixley knows how much space will be needed. <strong>This will be due April 3rd!</strong></p>\n<p><a href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=P2fUH5bfIUaGOKHYjEyF1__sKDpcF5dHkQVKrWtS3KFUMjUwNFZPQ0pBUlk1SVNQWldaTzZXVE5PMC4u\" target=\"_blank\" rel=\"noopener noreferrer\">TSA State Project Transportation Request</a> </p>\n<p>2.<strong> Phone Trees Form </strong>- If you haven&#x27;t already, please fill out the phone trees form to ensure that your officer has your contact information for the conference. In the form, when it says YOUR officer that is referring to the officer assigned to your hotel room (this can be found in the 3/26 meeting PowerPoint in the files section). <strong>Due April 3rd!</strong></p>\n<p><strong><a href=\"https://forms.office.com/r/aM5znUQbWU\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Phone Trees – Fill out form</a></strong></p>\n<p><strong>3. Sign-up Genius for Buses - </strong>To limit overcrowding of buses, we will be using a sign-up genius this year where ALL TSA members must sign-up for what bus they want to be on in advance. <strong>Due April 3rd!</strong></p>\n<p><a href=\"https://m.signupgenius.com/#!/showSignUp/10C0A4AA8AB2BA4F8C07-63218279-tsastates\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Bus Signup genius</a></p>\n<p>4. <strong>Ordering Merch - Deadline is April 3rd.</strong> This is optional but a great way to support Eastlake TSA!</p>\n<p><a href=\"https://www.companycasuals.com/EastlakeTSA/start.jsp\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Merch Student Store</a></p>\n<p>If you have any questions, please feel free to contact your officer!</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-03-25:/discussion_topics/discussion_topic_46258",
-  "title": "MANDATORY General Meeting Tomorrow!",
-  "author": "Saranya Agrawal",
-  "initials": "SA",
-  "published": "2026-03-25T18:51:40-07:00",
-  "posted": "Posted Mar 25, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/46258",
-  "html": "<p>There will be a mandatory general meeting tomorrow afterschool in the Lower Commons from 3:25-3:40. We will be going over <strong>essential</strong> states information (and getting everyone&#x27;s phone numbers for the phone trees), so please make sure to show up!</p>"
  }
 ];
