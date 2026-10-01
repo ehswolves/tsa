@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-10-01:/discussion_topics/discussion_topic_60058",
+  "title": "Intern applications due tonight",
+  "author": "Tanya Acharya",
+  "initials": "TA",
+  "published": "2026-10-01T11:23:18-07:00",
+  "posted": "Posted Oct 1, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/60058",
+  "html": "<p>Reminder that applications for the intern position is due TONIGHT AT MIDNIGHT! The application link is on my previous announcement.</p>\n<p>Information:</p>\n<p>If you are interested in learning about being a TSA officer, this is a great opportunity for you! Interns will have the opportunity to work alongside each officer to see what position they would be best at and enjoy the most. Becoming an intern is a great way to show your commitment to TSA, and will give you an advantage when applying for officer at the end of the year. <strong>Applications are due October 1</strong>, and information about interviews will come after.</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-09-24:/discussion_topics/discussion_topic_59513",
   "title": "Intern applications!",
   "author": "Tanya Acharya",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Apr 2, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/47021",
   "html": "<p>All 4 forms below are due April 3rd, please submit ASAP if you have not already done so. </p>\n<p>1. <strong>Project Transportation Form</strong> - If you need additional space for a trifold, prototype, model, etc. and will not be able to bring it on the buses please fill out this form to ensure that Ms. Pixley knows how much space will be needed. <strong>This will be due April 3rd!</strong></p>\n<p><a href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=P2fUH5bfIUaGOKHYjEyF1__sKDpcF5dHkQVKrWtS3KFUMjUwNFZPQ0pBUlk1SVNQWldaTzZXVE5PMC4u\" target=\"_blank\" rel=\"noopener noreferrer\">TSA State Project Transportation RequestLinks to an external site.</a> </p>\n<p>2.<strong> Phone Trees Form </strong>- If you haven&#x27;t already, please fill out the phone trees form to ensure that your officer has your contact information for the conference. In the form, when it says YOUR officer that is referring to the officer assigned to your hotel room (this can be found in the 3/26 meeting PowerPoint in the files section). <strong>Due April 3rd!</strong></p>\n<p><strong><a href=\"https://forms.office.com/r/aM5znUQbWU\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Phone Trees – Fill out formLinks to an external site.</a></strong></p>\n<p><strong>3. Sign-up Genius for Buses - </strong>To limit overcrowding of buses, we will be using a sign-up genius this year where ALL TSA members must sign-up for what bus they want to be on in advance. <strong>Due April 3rd!</strong></p>\n<p><a href=\"https://m.signupgenius.com/#!/showSignUp/10C0A4AA8AB2BA4F8C07-63218279-tsastates\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Bus Signup geniusLinks to an external site.</a></p>\n<p>4. <strong>Ordering Merch - Deadline is April 3rd.</strong> This is optional but a great way to support Eastlake TSA!</p>\n<p><a href=\"https://www.companycasuals.com/EastlakeTSA/start.jsp\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Merch Student StoreLinks to an external site.</a></p>\n<p>If you have any questions, please feel free to contact your officer!</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-04-01:/discussion_topics/discussion_topic_46852",
-  "title": "Final Parent Meeting TOMORROW - 7pm",
-  "author": "Christina Pixley",
-  "initials": "CP",
-  "published": "2026-04-01T12:18:27-07:00",
-  "posted": "Posted Apr 1, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/46852",
-  "html": "TEAMs meeting Thursday, April 2nd - 7pm.\n<br>Microsoft Teams meeting\nJoin: <a href=\"https://teams.microsoft.com/meet/243238383031780?p=ukWdHzofg8nt9JlvVI\" target=\"_blank\" rel=\"noopener noreferrer\"><u>https://teams.microsoft.com/meet/243238383031780?p=ukWdHzofg8nt9JlvVI</u></a>\nMeeting ID: 243 238 383 031 780\nPasscode: QF6xg7tf"
  }
 ];
