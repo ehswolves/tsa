@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-10-07:/discussion_topics/discussion_topic_60621",
+  "title": "Mandatory Meeting 10/8 (tomorrow) After School",
+  "author": "Ila Lu",
+  "initials": "IL",
+  "published": "2026-10-07T18:20:43-07:00",
+  "posted": "Posted Oct 7, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/60621",
+  "html": "<p>Hello everyone, this is a reminder that <strong>we will be having a TSA meeting in the lower commons after school tomorrow</strong>. </p>\n<p>This meeting will be mandatory for ALL MEMBERS, as we will be going over information such as membership requirements, new changes for this year, as well as important dates. We hope to see you there!</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-10-01:/discussion_topics/discussion_topic_60058",
   "title": "Intern applications due tonight",
   "author": "Tanya Acharya",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Apr 8, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/47632",
   "html": "<p>Your phone tree officer should have added you to a WhatsApp groupchat by now. This is where all the important information prior to and before states will be going out. This groupchat is <strong>mandatory for States</strong>. </p>\n<p><strong>If you have not received an invite to this group chat yet</strong>, please reach out to your officer. It&#x27;s possible that you do not have WhatsApp or did not fill out the phone tree form. </p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-04-02:/discussion_topics/discussion_topic_47021",
-  "title": "REMINDER FOR FORMS DUE APRIL 3rd!",
-  "author": "Gatha Vaghela",
-  "initials": "GV",
-  "published": "2026-04-02T17:00:14-07:00",
-  "posted": "Posted Apr 2, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/47021",
-  "html": "<p>All 4 forms below are due April 3rd, please submit ASAP if you have not already done so. </p>\n<p>1. <strong>Project Transportation Form</strong> - If you need additional space for a trifold, prototype, model, etc. and will not be able to bring it on the buses please fill out this form to ensure that Ms. Pixley knows how much space will be needed. <strong>This will be due April 3rd!</strong></p>\n<p><a href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=P2fUH5bfIUaGOKHYjEyF1__sKDpcF5dHkQVKrWtS3KFUMjUwNFZPQ0pBUlk1SVNQWldaTzZXVE5PMC4u\" target=\"_blank\" rel=\"noopener noreferrer\">TSA State Project Transportation RequestLinks to an external site.</a> </p>\n<p>2.<strong> Phone Trees Form </strong>- If you haven&#x27;t already, please fill out the phone trees form to ensure that your officer has your contact information for the conference. In the form, when it says YOUR officer that is referring to the officer assigned to your hotel room (this can be found in the 3/26 meeting PowerPoint in the files section). <strong>Due April 3rd!</strong></p>\n<p><strong><a href=\"https://forms.office.com/r/aM5znUQbWU\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Phone Trees – Fill out formLinks to an external site.</a></strong></p>\n<p><strong>3. Sign-up Genius for Buses - </strong>To limit overcrowding of buses, we will be using a sign-up genius this year where ALL TSA members must sign-up for what bus they want to be on in advance. <strong>Due April 3rd!</strong></p>\n<p><a href=\"https://m.signupgenius.com/#!/showSignUp/10C0A4AA8AB2BA4F8C07-63218279-tsastates\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Bus Signup geniusLinks to an external site.</a></p>\n<p>4. <strong>Ordering Merch - Deadline is April 3rd.</strong> This is optional but a great way to support Eastlake TSA!</p>\n<p><a href=\"https://www.companycasuals.com/EastlakeTSA/start.jsp\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Merch Student StoreLinks to an external site.</a></p>\n<p>If you have any questions, please feel free to contact your officer!</p>"
  }
 ];
