@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-10-19:/discussion_topics/discussion_topic_61409",
+  "title": "Volunteers Needed for Event Selection Workshop",
+  "author": "Yash Nagarahalli",
+  "initials": "YN",
+  "published": "2026-10-19T23:39:47-07:00",
+  "posted": "Posted Oct 19, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/61409",
+  "html": "<p>Hi Eastlake TSA!</p>\n<p>We are looking for volunteers to help us run our Event Selection Workshop this Thursday, 10/22, after school!</p>\n<p>This will be about a 45 min - 1 hour commitment, where you will answer questions about events you have experience with (min 1 year experience) and help new members decide which events are the right fit for them. <strong>You won&#x27;t need to prepare anything</strong>, just come ready to share what you already know about the events you listed on the volunteer form!</p>\n<p>This is also a great opportunity to get to know the officer team and work with us, especially if you&#x27;re interested in becoming an officer at the end of the year!</p>\n<p><strong>By volunteering, you will receive:</strong></p>\n<ul>\n<li>\n<p><strong>2 workshop credits</strong>, completing your workshop credit requirement for the year!</p>\n</li>\n<li>\n<p><strong>1 community service hour</strong></p>\n</li>\n</ul>\n<p>If you&#x27;re interested, please fill out the volunteer form (<a href=\"https://forms.cloud.microsoft/r/CNamzLaN4n\" target=\"_blank\" rel=\"noopener noreferrer\">Event Selection Workshop Volunteer Form – Fill out form</a>)! Feel free to reach out to <a href=\"mailto:1066968@lwsd.org\" target=\"_blank\" rel=\"noopener noreferrer\">1066968@lwsd.org</a> if you have any questions.</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-10-07:/discussion_topics/discussion_topic_60621",
   "title": "Mandatory Meeting 10/8 (tomorrow) After School",
   "author": "Ila Lu",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Apr 14, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/47933",
   "html": "<p>Hello everyone,</p>\n<p>Hope you are having a good spring break. Please download the WTSA State Conference Schedule in the Guidebook App using the instructions below. This will have the timings for all events as well as the semifinalists for each event when they are announced. Some events will happen tomorrow right after we arrive, so please download the app and check ASAP.</p>\n<p><a href=\"https://www.washingtontsa.org/2026-state-conference\" target=\"_blank\" rel=\"noopener noreferrer\">2026 State Conference — Washington Technology Student Association</a></p>\n<p>Also here are some last-minute reminders:</p>\n<ol>\n<li>Portfolios should not have your names on them. You will get points taken off if they do.</li>\n<li>Portfolios should be submitted in clear plastic covers. Binders will not be accepted.</li>\n<li>It is a 4-hour bus ride to Spokane. Please brings snacks or anything else you may need.</li>\n<li>Remember to pack dress pants/shoes or any other formal wear you may need.</li>\n</ol>\n<p>If you are not in a phone tree yet or have any additional questions, please let me know.</p>\n<p>Thank you,</p>\n<p>Anirudh Aravind</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-04-08:/discussion_topics/discussion_topic_47632",
-  "title": "Phone Trees!",
-  "author": "Saranya Agrawal",
-  "initials": "SA",
-  "published": "2026-04-08T14:16:05-07:00",
-  "posted": "Posted Apr 8, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/47632",
-  "html": "<p>Your phone tree officer should have added you to a WhatsApp groupchat by now. This is where all the important information prior to and before states will be going out. This groupchat is <strong>mandatory for States</strong>. </p>\n<p><strong>If you have not received an invite to this group chat yet</strong>, please reach out to your officer. It&#x27;s possible that you do not have WhatsApp or did not fill out the phone tree form. </p>"
  }
 ];
