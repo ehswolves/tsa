@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-10-26:/discussion_topics/discussion_topic_61951",
+  "title": "Reminder for Event Registration",
+  "author": "Ila Lu",
+  "initials": "IL",
+  "published": "2026-10-26T17:23:15-07:00",
+  "posted": "Posted Oct 26, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/61951",
+  "html": "<p>Hi Eastlake TSA!</p>\n<p>Event registration for the 2026–27 competition season <strong>closes today</strong>! Please fill out the <a href=\"https://forms.cloud.microsoft/r/nVSm3n5DsC\" target=\"_blank\" rel=\"noopener noreferrer\">form</a> to indicate which events you would like to compete in and who you plan to work with. <br><br>As a refresher, you may register for a maximum of 6 events, and we recommend participating in at least 2. For event descriptions and team size limits, check the <a href=\"https://www.washingtontsa.org/high-school-events\" target=\"_blank\" rel=\"noopener noreferrer\">Washington TSA website</a> for the most up-to-date information. You can edit your form if you click the &#x27;save&#x27; option on Microsoft Forms. </p>\n<p>Please feel free to reach out to an officer if you have any questions!</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-10-22:/discussion_topics/discussion_topic_61701",
   "title": "26-27 Event Registration",
   "author": "Yash Nagarahalli",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Apr 26, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/48584",
   "html": "<p>Hi all,</p>\n<p>It&#x27;s seems there was an issue with some of the rubrics. Please find them <a href=\"https://lwsd-my.sharepoint.com/:f:/g/personal/cpixley_lwsd_org/IgDhr5cS_UCUQKK1r08rNNQkAVsJDdUC2RpBmsnlEgzS-ZM?e=vNOBU9\" target=\"_blank\" rel=\"noopener noreferrer\">HERE</a> and let me know if you have any issues.</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-04-22:/discussion_topics/discussion_topic_48312",
-  "title": "States Rubrics + Nationals Updates",
-  "author": "Saranya Agrawal",
-  "initials": "SA",
-  "published": "2026-04-22T22:17:52-07:00",
-  "posted": "Posted Apr 22, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/48312",
-  "html": "<p>Hi everyone, </p>\n<p>Here are your rubrics for TSA States: <a href=\"https://lwsd-my.sharepoint.com/:f:/g/personal/1098823_lwsd_org/IgDW_CTd8jMQTKUlzS8aJ-AyAdBnNfKaG8ZEzvswb9Yhgrc?e=Zm3mPW\" target=\"_blank\" rel=\"noopener noreferrer\">States Rubrics!</a> Ms. Pixley has reached out if you are eligible to go to TSA Nationals :). More details about that should be going out soon.</p>\n<p>If you are a senior, the officers will be reaching out to you for your project/event content to create a compilation of all the past events + rubrics to help future members out. Please be on the lookout for that email!</p>\n<p>We will not be having regular meetings, but information about officer applications will be coming out in the next few weeks as well. </p>"
  }
 ];
