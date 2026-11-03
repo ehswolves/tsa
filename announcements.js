@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-11-03:/discussion_topics/discussion_topic_62564",
+  "title": "Event Registration Updates",
+  "author": "Anika Bhadra",
+  "initials": "AB",
+  "published": "2026-11-03T15:37:06-08:00",
+  "posted": "Posted Nov 3, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/62564",
+  "html": "<p>Hello everyone! If your name is in red on the registration excel OR you want to change partners or drop events, email <a href=\"mailto:1060112@lwsd.org\" target=\"_blank\" rel=\"noopener noreferrer\">1060112@lwsd.org</a>, <a href=\"mailto:1053868@lwsd.org\" target=\"_blank\" rel=\"noopener noreferrer\">1053868@lwsd.org</a>, <a href=\"mailto:1053337@lwsd.org\" target=\"_blank\" rel=\"noopener noreferrer\">1053337@lwsd.org</a>, <a href=\"mailto:1066968@lwsd.org\" target=\"_blank\" rel=\"noopener noreferrer\">1066968@lwsd.org</a>, <a href=\"mailto:1046594@lwsd.org\" target=\"_blank\" rel=\"noopener noreferrer\">1046594@lwsd.org</a>, and 1058748@lwsd.org. The deadline to make these changes is THIS FRIDAY, 11/06. As always, feel free to email one of us if you have any questions. </p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-11-02:/discussion_topics/discussion_topic_62467",
   "title": "Eastlake TSA Intrachapter Info",
   "author": "Sayuri Kuruppu",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted May 11, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/50297",
   "html": "<p>If you are participating in TSA Nationals and have an event requiring an EARLY ENTRY SUBMISSION, the portal is open from <strong>today to Wednesday at</strong> <strong>11:59 PM ET (NOT PST)</strong>. They will not be accepting late submissions, so please get it in ASAP!</p>\n<p>You can find the instructions to submit in the PDF attached. Here is the link to the portal: https://tsamembership.registermychapter.com/members#</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-04-28:/discussion_topics/discussion_topic_48849",
-  "title": "GRAB YOUR PROJECTS!",
-  "author": "Saranya Agrawal",
-  "initials": "SA",
-  "published": "2026-04-28T21:18:03-07:00",
-  "posted": "Posted Apr 28, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/48849",
-  "html": "<p>If you had a project that you had put in the red truck to bring back from States, please grab it from Ms. Pixley&#x27;s room (C112) ASAP! There are still a bunch of projects there.</p>"
  }
 ];
