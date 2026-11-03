@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-11-02:/discussion_topics/discussion_topic_62467",
+  "title": "Eastlake TSA Intrachapter Info",
+  "author": "Sayuri Kuruppu",
+  "initials": "SK",
+  "published": "2026-11-02T16:25:02-08:00",
+  "posted": "Posted Nov 2, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/62467",
+  "html": "<p>Hello everyone!<br>Eastlake TSA&#x27;s intrachapter competition is approaching, so here&#x27;s everything you need to know.<br><strong>Intrachapters will be from Nov 16-20</strong> (the week before Thanksgiving break!)</p>\n<p><strong>Team Assignments</strong></p>\n<p>Please review the team assignments and meet with your teams so you can get ready for intrachapters as soon as possible.<br><strong>Some names/teams are in RED TEXT. If this is you, review the note written, resolve the issue, and email us ASAP about the changes you make.</strong><br>If any information seems inaccurate or you have any questions, feel free to reach out to us.</p>\n<p>To see the team assignments, please see <strong>here</strong>: https://lwsd-my.sharepoint.com/:x:/g/personal/1046594_lwsd_org/IQBOT3IkM_ilTL4KzV01ezvaASI_gS0Di7Lej1ycxiaahD4?e=ZwJdrm<br>This link will also be on the TSA Canvas Homepage.</p>\n<p><strong>Events</strong></p>\n<p>The complete <strong>event guidelines</strong> have been published in Canvas under Files (2026-2027 -&gt; Event Guides). Most events will be in the overall 2027-2028 events guide, but Washington-Only events will have their own documents.<br>For intrachapters you will be expected to complete your projects according to our <strong>MODIFIED RUBRICS</strong>, which have essentially shortened down your projects to make them more feasible by the deadline.</p>\n<p>To review the intrachapter event rubrics please see <strong>here</strong>: https://lwsd-my.sharepoint.com/:x:/g/personal/1046594_lwsd_org/IQAl-qUir-4uRrSOorCzrywJARXMLavTAcVYdOpASQ9pxek?e=r4RVS1<br>This link will also be accessible on the TSA Canvas Homepage.</p>\n<p>Note: In the intrachapter rubrics document, some events are listed as On-Demand events, meaning they will be happening during the week of intrachapters itself. You will receive more information on these events closer to the actual competition dates.<strong></strong></p>\n<p><strong>All events must be completed in response to the EVENT THEMES. </strong>To review information on event themes and prompts, please see <strong>here</strong>: https://www.washingtontsa.org/high-school-events</p>\n<p><strong>All online submissions will be due at 11:59 pm on Friday, November 20th</strong>. We will release forms for submissions closer to the competition date.</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-10-26:/discussion_topics/discussion_topic_61951",
   "title": "Reminder for Event Registration",
   "author": "Ila Lu",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Apr 28, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/48849",
   "html": "<p>If you had a project that you had put in the red truck to bring back from States, please grab it from Ms. Pixley&#x27;s room (C112) ASAP! There are still a bunch of projects there.</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-04-26:/discussion_topics/discussion_topic_48584",
-  "title": "Correct Rubrics",
-  "author": "Christina Pixley",
-  "initials": "CP",
-  "published": "2026-04-26T06:27:53-07:00",
-  "posted": "Posted Apr 26, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/48584",
-  "html": "<p>Hi all,</p>\n<p>It&#x27;s seems there was an issue with some of the rubrics. Please find them <a href=\"https://lwsd-my.sharepoint.com/:f:/g/personal/cpixley_lwsd_org/IgDhr5cS_UCUQKK1r08rNNQkAVsJDdUC2RpBmsnlEgzS-ZM?e=vNOBU9\" target=\"_blank\" rel=\"noopener noreferrer\">HERE</a> and let me know if you have any issues.</p>"
  }
 ];
