@@ -8,6 +8,26 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-11-05:/discussion_topics/discussion_topic_62800",
+  "title": "Parent Volunteers Needed!!!",
+  "author": "Sayuri Kuruppu",
+  "initials": "SK",
+  "published": "2026-11-05T19:23:36-08:00",
+  "posted": "Posted Nov 5, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/62800",
+  "html": "<p>Hello everyone,<br>In order to run intrachapters and have the judging be as fair and realistic to states as possible, <strong>we need the help of parent volunteers!</strong> Parent volunteers are what help make intrachapters possible, and any help is greatly appreciated!</p>\n<p><strong>Parent volunteers may partake in two types of judging.</strong> The type of judging for each event is listed in the signup genius.<br>- In-person judging (at the times listed on the signup sheet)<br>- Online judging (these can happen in parents&#x27; own time between the dates 11/20 to 11/30)</p>\n<p>Please ask your parents if there are any specific events that interest them and to see if there are any judging formats/times that work for them. <strong>To sign up, please use this signup genius, and be sure to fill it out by November 11th, at 11:59pm:</strong> <a href=\"https://www.signupgenius.com/go/10C054BAAA72AA3FDC52-65164241-parent\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.signupgenius.com/go/10C054BAAA72AA3FDC52-65164241-parent</a></p>\n<p><strong>As a note, parents should avoid judging for an event that their student is participating in.</strong></p>\n<p>Let us know if you have any questions, and we greatly appreciate your help!</p>"
+ },
+ {
+  "id": "tag:canvas.instructure.com,2026-11-05:/discussion_topics/discussion_topic_62799",
+  "title": "Intrachapter Event Schedule",
+  "author": "Sayuri Kuruppu",
+  "initials": "SK",
+  "published": "2026-11-05T19:23:17-08:00",
+  "posted": "Posted Nov 5, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/62799",
+  "html": "<p>Hey everyone,</p>\n<p>Here&#x27;s some info on the event schedules for intrachapters.</p>\n<p><strong>IMPORTANT NOTES:</strong></p>\n<ul>\n<li><strong>If you have 2 in-person events that conflict,</strong> then you should default to <strong>attending your non-testing event</strong>, and also <strong>notify the officers </strong>of your conflict as soon as possible so we can schedule a makeup testing date.</li>\n<li><strong>If you are participating in Extemporaneous Speech or Prepared Presentation</strong>, you must sign up for a time slot using this signup genius: <a href=\"https://www.signupgenius.com/go/10C054BAAA72AA3FDC52-67397497-inperson\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.signupgenius.com/go/10C054BAAA72AA3FDC52-67397497-inperson</a></li>\n<li>For all other in-person events, you are expected to show up for the duration of the listed timing in the schedule below</li>\n<li>Some digital events must be completed in person (and are included in the schedule below). Submissions for these events will be due at the end of the time block of that event.</li>\n<li>All other online events will be due on November 20th, at 11:59pm.</li>\n</ul>\n<p>As always, feel free to email us if you have any questions!</p>\n<strong>Mon, Nov. 16th</strong>\n<strong>Tue, Nov. 17th</strong>\n<strong>Wed, Nov. 18th</strong>\n<strong>Thu, Nov. 19th</strong>\n<strong>Fri, Nov 20th</strong>\n<p><strong>Technology Bowl</strong></p>\n<p>(Testing)</p>\n<p>Time: 3:20 - 4:30pm</p>\n<p>Room: D135</p>\n<p><strong>Artificial Intelligence</strong></p>\n<p>(Testing)</p>\n<p>Time: 3:20 - 4:30pm</p>\n<p>Room: D135</p>\n<p><strong>Forensic Science</strong></p>\n<p>(Testing)</p>\n<p>Time: 1:35 - 2:45pm</p>\n<p>Room: D135</p>\n<p><strong>Extemporaneous Speech</strong></p>\n<p>(sign up for time slot)</p>\n<p>Time: 3:20 - 4:30pm</p>\n<p>Room: D135</p>\n<p><strong>CAD Engineering</strong></p>\n<p>Time: 3:20 - 6:30pm</p>\n<p>Room: D135</p>\n<p><strong>Data Science &amp; Analytics</strong></p>\n<p>Time: 3:20 - 5:30pm</p>\n<p>Room: D130</p>\n<p><strong>Tech Problem Solving</strong></p>\n<p>Time: 3:20 - 4:30pm</p>\n<p>Room: D130</p>\n<p><strong>Prepared Presentation</strong></p>\n<p>(sign up for time slot)</p>\n<p>Time: 1:35 - 2:45pm</p>\n<p>Room: D130</p>\n<p><strong>Prepared Presentation </strong></p>\n<p>(sign up for time slot)</p>\n<p>Time: 3:20 - 4:30pm</p>\n<p>Room: D130</p>\n<p><strong>Prepared Presentation </strong></p>\n<p>(sign up for time slot)</p>\n<p>Time: 3:20 - 4:30pm</p>\n<p>Room: D130</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-11-03:/discussion_topics/discussion_topic_62564",
   "title": "Event Registration Updates",
   "author": "Anika Bhadra",
@@ -136,25 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted May 31, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/51658",
   "html": "<p>Officer interview slots have been sent out! <strong>Please check your email ASAP</strong>. Interviews will be throughout this week, so make sure to sign up ASAP.</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-05-11:/discussion_topics/discussion_topic_50298",
-  "title": "EHS TSA 26-27 Officer Applications",
-  "author": "Saranya Agrawal",
-  "initials": "SA",
-  "published": "2026-05-11T16:59:24-07:00",
-  "posted": "Posted May 11, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/50298",
-  "html": "<p>If you are interested in applying for the Eastlake TSA officer team, applications are open from today till Saturday (5/16) at 11:59 PM. We will NOT be accepting late submissions.</p>\n<p>After the initial round of applications, we will hold interviews and finally announce the new officer team in the beginning of June!</p>\n<p>Application: <a href=\"https://forms.office.com/r/AB0wrDp2gx\" target=\"_blank\" rel=\"noopener noreferrer\">2026-27 TSA Officer Application – Fill out form</a></p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-05-11:/discussion_topics/discussion_topic_50297",
-  "title": "Nationals Early Entry Submissions",
-  "author": "Saranya Agrawal",
-  "initials": "SA",
-  "published": "2026-05-11T16:50:31-07:00",
-  "posted": "Posted May 11, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/50297",
-  "html": "<p>If you are participating in TSA Nationals and have an event requiring an EARLY ENTRY SUBMISSION, the portal is open from <strong>today to Wednesday at</strong> <strong>11:59 PM ET (NOT PST)</strong>. They will not be accepting late submissions, so please get it in ASAP!</p>\n<p>You can find the instructions to submit in the PDF attached. Here is the link to the portal: https://tsamembership.registermychapter.com/members#</p>"
  }
 ];
