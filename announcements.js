@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-11-10:/discussion_topics/discussion_topic_63131",
+  "title": "Reminder: Intrachapter Info Meeting on 11/12",
+  "author": "Anika Bhadra",
+  "initials": "AB",
+  "published": "2026-11-10T15:50:03-08:00",
+  "posted": "Posted Nov 10, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/63131",
+  "html": "<p>Hi everyone! A reminder that we have our intrachapter information meeting <strong>THIS THURSDAY</strong> in the lower commons. This is a full chapter meeting, so it is MANDATORY for everyone. We&#x27;ll also be going over common mistakes and tips for before you submit. If you stay for the whole time, you will get a workshop credit in addition to the meeting credit. </p>\n<p>See you all there!</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-11-05:/discussion_topics/discussion_topic_62800",
   "title": "Parent Volunteers Needed!!!",
   "author": "Sayuri Kuruppu",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Jun 2, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/51891",
   "html": "<p>Hey everyone!</p>\n<p><strong>LIP DUB IS THIS FRIDAY!</strong> TSA is near the bus area, so make sure to come out and support us :). Eeshani and Saranya will be performing, so we need y&#x27;all to be cheering extra hard 📢. Look to the bottom of this post for the exact positioning. We are next to Girls&#x27; Swive and JSU.</p>\n<p>Our final meeting is next Thursday afterschool in the Lower Commons. <strong>Please fill out this <a href=\"https://forms.cloud.microsoft/r/LVDhVbb0JB\" target=\"_blank\" rel=\"noopener noreferrer\">End-of-the-Year Celebration RSVP</a>,</strong> so we get enough snacks + drinks! There will be food (obviously) and karaoke :). It will be a lot of fun, so please come!!</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-05-31:/discussion_topics/discussion_topic_51658",
-  "title": "TSA Officer Interviews",
-  "author": "Saranya Agrawal",
-  "initials": "SA",
-  "published": "2026-05-31T18:42:56-07:00",
-  "posted": "Posted May 31, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/51658",
-  "html": "<p>Officer interview slots have been sent out! <strong>Please check your email ASAP</strong>. Interviews will be throughout this week, so make sure to sign up ASAP.</p>"
  }
 ];
