@@ -8,6 +8,26 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-11-13:/discussion_topics/discussion_topic_63326",
+  "title": "Eastlake TSA Sweatshirt Sizes",
+  "author": "Ila Lu",
+  "initials": "IL",
+  "published": "2026-11-13T10:38:10-08:00",
+  "posted": "Posted Nov 13, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/63326",
+  "html": "<p>Hi everyone! This year, you will be <strong>receiving a sweatshirt with the club dues</strong>. Please fill out the following Microsoft Forms so that we are able to get the size that you want for your sweatshirt. This is form is <strong>MANDATORY </strong>for all members of TSA. </p>\n<p><a href=\"https://forms.cloud.microsoft/r/2TieX18Yt1\" target=\"_blank\" rel=\"noopener noreferrer\">Eastlake TSA Sweatshirt Sizes – Fill out form</a></p>\n<p>Thank you! </p>"
+ },
+ {
+  "id": "tag:canvas.instructure.com,2026-11-13:/discussion_topics/discussion_topic_63313",
+  "title": "TSA Dues!",
+  "author": "Shivam Chowdhary",
+  "initials": "SC",
+  "published": "2026-11-13T08:37:05-08:00",
+  "posted": "Posted Nov 13, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/63313",
+  "html": "<p>Hey everyone!</p>\n<p>The TSA Dues of $65 are in the LWSD payment portal. These dues are <strong>mandatory </strong>and you will not be able to advance to state if you don&#x27;t pay, even if you qualify. They are due on Friday, November 20th, at 11:59 PM. Let us know if you have any questions or would need a waived fee, due to a financial situation.</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-11-10:/discussion_topics/discussion_topic_63131",
   "title": "Reminder: Intrachapter Info Meeting on 11/12",
   "author": "Anika Bhadra",
@@ -136,25 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Jun 22, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/53174",
   "html": "<p>Hello everyone!</p>\n<p>Hope your summer is off to a great start. It would really helpful if you could submit your projects from this year below (especially graduated seniors). This will help future members see example projects for each event.</p>\n<p><a href=\"https://forms.cloud.microsoft/r/cY1Ses8R1b\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Past Project Submission – Fill out form</a></p>\n<p>Thank you!</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-06-10:/discussion_topics/discussion_topic_52592",
-  "title": "End-of-the-Year Celebration!",
-  "author": "Saranya Agrawal",
-  "initials": "SA",
-  "published": "2026-06-10T16:01:58-07:00",
-  "posted": "Posted Jun 10, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/52592",
-  "html": "<p>The end-of-the-year celebration will be tomorrow in the lower commons at 3:30 PM! Join us for food, drinks, karaoke, and senior officer recognition. Please use the RSVP form in the previous announcement if you are planning on coming!</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-06-02:/discussion_topics/discussion_topic_51891",
-  "title": "Lip Dub + End-of-the-Year Celebration",
-  "author": "Saranya Agrawal",
-  "initials": "SA",
-  "published": "2026-06-02T22:13:37-07:00",
-  "posted": "Posted Jun 2, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/51891",
-  "html": "<p>Hey everyone!</p>\n<p><strong>LIP DUB IS THIS FRIDAY!</strong> TSA is near the bus area, so make sure to come out and support us :). Eeshani and Saranya will be performing, so we need y&#x27;all to be cheering extra hard 📢. Look to the bottom of this post for the exact positioning. We are next to Girls&#x27; Swive and JSU.</p>\n<p>Our final meeting is next Thursday afterschool in the Lower Commons. <strong>Please fill out this <a href=\"https://forms.cloud.microsoft/r/LVDhVbb0JB\" target=\"_blank\" rel=\"noopener noreferrer\">End-of-the-Year Celebration RSVP</a>,</strong> so we get enough snacks + drinks! There will be food (obviously) and karaoke :). It will be a lot of fun, so please come!!</p>"
  }
 ];
