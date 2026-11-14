@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-11-13:/discussion_topics/discussion_topic_63416",
+  "title": "URGENT - Intrachapters Team Changes",
+  "author": "Yash Nagarahalli",
+  "initials": "YN",
+  "published": "2026-11-13T20:27:08-08:00",
+  "posted": "Posted Nov 13, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/63416",
+  "html": "<p>Hi Eastlake TSA!</p>\n<p>If your team was highlighted in red on the Intrachapters Teams Spreadsheet due to an issue and you did not email us to resolve it, your team has been removed from Intrachapters. Please check the spreadsheet again to make sure all your events are still listed. If you previously contacted us about fixing an issue but your team was still removed, please email all officers so we can get it fixed.</p>\n<p>Thanks!</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-11-13:/discussion_topics/discussion_topic_63326",
   "title": "Eastlake TSA Sweatshirt Sizes",
   "author": "Ila Lu",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Sep 23, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/59480",
   "html": "<p>Our interest meeting will be this Thursday, September 24th at 3:20 pm in the Lower Commons! Come for info about the club and competition!</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-06-22:/discussion_topics/discussion_topic_53174",
-  "title": "TSA Past Project Submission",
-  "author": "Anirudh Aravind",
-  "initials": "AA",
-  "published": "2026-06-22T13:52:34-07:00",
-  "posted": "Posted Jun 22, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/53174",
-  "html": "<p>Hello everyone!</p>\n<p>Hope your summer is off to a great start. It would really helpful if you could submit your projects from this year below (especially graduated seniors). This will help future members see example projects for each event.</p>\n<p><a href=\"https://forms.cloud.microsoft/r/cY1Ses8R1b\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Past Project Submission – Fill out form</a></p>\n<p>Thank you!</p>"
  }
 ];
