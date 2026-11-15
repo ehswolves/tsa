@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-11-15:/discussion_topics/discussion_topic_63441",
+  "title": "In-Person Events + Materials",
+  "author": "Sayuri Kuruppu",
+  "initials": "SK",
+  "published": "2026-11-15T15:18:19-08:00",
+  "posted": "Posted Nov 15, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/63441",
+  "html": "<p>Hey everyone,</p>\n<p>With intrachapters this week, make sure you show up on time for your in-person events.</p>\n<p>For all in-person events, you will need to bring <strong>your computers</strong> (this excludes technology problem solving and extemporaneous speech). For prepared presentation, be sure you have your presentations with you on your computer as well. Also, be sure you have any software needed for your events downloaded/accessible on your computers before you come.</p>\n<p>Additionally, during intrachapters you <strong>do not </strong>need to worry about dress codes (although this will not be the case for states).</p>\n<p>As always, if you have any questions feel free to email us!</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-11-13:/discussion_topics/discussion_topic_63416",
   "title": "URGENT - Intrachapters Team Changes",
   "author": "Yash Nagarahalli",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Sep 24, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/59513",
   "html": "<p>We are opening applications for internship positions! If you are interested in learning about being a TSA officer, this is a great opportunity for you! Interns will have the opportunity to work alongside each officer to see what position they would be best at and enjoy the most. Becoming an intern is a great way to show your commitment to TSA, and will give you an advantage when applying for officer at the end of the year. <strong>Applications are due October 1</strong>, and information about interviews will come after. We look forward to hearing about your vision for TSA!</p>\n<p>Application:</p>\n<p><a href=\"https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=P2fUH5bfIUaGOKHYjEyF19t1A7ZXyyJIhXBt8o-e00tUOEw2QjExRkxJRjJaTzRaSjVZQzMwQk42Ri4u\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Intern Application 26-27 – Fill out form</a></p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-09-23:/discussion_topics/discussion_topic_59480",
-  "title": "Interest Meeting!",
-  "author": "Tanya Acharya",
-  "initials": "TA",
-  "published": "2026-09-23T20:52:31-07:00",
-  "posted": "Posted Sep 23, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/59480",
-  "html": "<p>Our interest meeting will be this Thursday, September 24th at 3:20 pm in the Lower Commons! Come for info about the club and competition!</p>"
  }
 ];
