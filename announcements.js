@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-11-15:/discussion_topics/discussion_topic_63456",
+  "title": "Intrachapter Submissions Form",
+  "author": "Anika Bhadra",
+  "initials": "AB",
+  "published": "2026-11-15T22:23:33-08:00",
+  "posted": "Posted Nov 15, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/63456",
+  "html": "<p>Hello everyone, here it the link to submit intrachapter entries: <a href=\"https://forms.cloud.microsoft/r/eFPadM9iqp\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Intrachapter Submissions 2026 – Fill out form</a></p>\n<p>A reminder that this form is due on <strong>Friday, November 20th at 11:59pm, </strong>and after this time no more entries will be accepted. Please email one of the officers if you have any questions!</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-11-15:/discussion_topics/discussion_topic_63441",
   "title": "In-Person Events + Materials",
   "author": "Sayuri Kuruppu",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Oct 1, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/60058",
   "html": "<p>Reminder that applications for the intern position is due TONIGHT AT MIDNIGHT! The application link is on my previous announcement.</p>\n<p>Information:</p>\n<p>If you are interested in learning about being a TSA officer, this is a great opportunity for you! Interns will have the opportunity to work alongside each officer to see what position they would be best at and enjoy the most. Becoming an intern is a great way to show your commitment to TSA, and will give you an advantage when applying for officer at the end of the year. <strong>Applications are due October 1</strong>, and information about interviews will come after.</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-09-24:/discussion_topics/discussion_topic_59513",
-  "title": "Intern applications!",
-  "author": "Tanya Acharya",
-  "initials": "TA",
-  "published": "2026-09-24T10:51:35-07:00",
-  "posted": "Posted Sep 24, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/59513",
-  "html": "<p>We are opening applications for internship positions! If you are interested in learning about being a TSA officer, this is a great opportunity for you! Interns will have the opportunity to work alongside each officer to see what position they would be best at and enjoy the most. Becoming an intern is a great way to show your commitment to TSA, and will give you an advantage when applying for officer at the end of the year. <strong>Applications are due October 1</strong>, and information about interviews will come after. We look forward to hearing about your vision for TSA!</p>\n<p>Application:</p>\n<p><a href=\"https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=P2fUH5bfIUaGOKHYjEyF19t1A7ZXyyJIhXBt8o-e00tUOEw2QjExRkxJRjJaTzRaSjVZQzMwQk42Ri4u\" target=\"_blank\" rel=\"noopener noreferrer\">TSA Intern Application 26-27 – Fill out form</a></p>"
  }
 ];
