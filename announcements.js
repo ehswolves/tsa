@@ -8,6 +8,26 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-11-16:/discussion_topics/discussion_topic_63537",
+  "title": "Testing Update",
+  "author": "Sayuri Kuruppu",
+  "initials": "SK",
+  "published": "2026-11-16T16:14:41-08:00",
+  "posted": "Posted Nov 16, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/63537",
+  "html": "<p>Hey everyone,</p>\n<p>For any teams testing this week, you must make sure that <strong>your entire team tests at the same time. </strong>If any one of your teammates has two conflicting events, email us, and your entire team will be able to test during a makeup testing date.</p>\n<p>Let us know if you have any questions!</p>"
+ },
+ {
+  "id": "tag:canvas.instructure.com,2026-11-16:/discussion_topics/discussion_topic_63530",
+  "title": "Eastlake TSA Attendance",
+  "author": "Ila Lu",
+  "initials": "IL",
+  "published": "2026-11-16T14:59:32-08:00",
+  "posted": "Posted Nov 16, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/63530",
+  "html": "<p>Hello everyone! We have been getting emails regarding updating the <a href=\"https://lwsd-my.sharepoint.com/:x:/g/personal/1046594_lwsd_org/IQCCblJw2ANZTaoop616cEY0AblUvH2xUCd9gw8QByTDyoc?e=Pbh2rv\" target=\"_blank\" rel=\"noopener noreferrer\">tracker </a>except some people didn&#x27;t look at the bottom of the tracker where it is separated by grade and they were already in the tracker. <strong>Please look through all the tabs at the bottom (separated by grade) of the Excel spreadsheet before emailing us to make a change</strong>. If you need a meeting excused in the future, please also email <a href=\"mailto:1053868@lwsd.org\" target=\"_blank\" rel=\"noopener noreferrer\">1053868@lwsd.org</a>. Thank you! </p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-11-15:/discussion_topics/discussion_topic_63456",
   "title": "Intrachapter Submissions Form",
   "author": "Anika Bhadra",
@@ -136,25 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Oct 19, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/61409",
   "html": "<p>Hi Eastlake TSA!</p>\n<p>We are looking for volunteers to help us run our Event Selection Workshop this Thursday, 10/22, after school!</p>\n<p>This will be about a 45 min - 1 hour commitment, where you will answer questions about events you have experience with (min 1 year experience) and help new members decide which events are the right fit for them. <strong>You won&#x27;t need to prepare anything</strong>, just come ready to share what you already know about the events you listed on the volunteer form!</p>\n<p>This is also a great opportunity to get to know the officer team and work with us, especially if you&#x27;re interested in becoming an officer at the end of the year!</p>\n<p><strong>By volunteering, you will receive:</strong></p>\n<ul>\n<li>\n<p><strong>2 workshop credits</strong>, completing your workshop credit requirement for the year!</p>\n</li>\n<li>\n<p><strong>1 community service hour</strong></p>\n</li>\n</ul>\n<p>If you&#x27;re interested, please fill out the volunteer form (<a href=\"https://forms.cloud.microsoft/r/CNamzLaN4n\" target=\"_blank\" rel=\"noopener noreferrer\">Event Selection Workshop Volunteer Form – Fill out form</a>)! Feel free to reach out to <a href=\"mailto:1066968@lwsd.org\" target=\"_blank\" rel=\"noopener noreferrer\">1066968@lwsd.org</a> if you have any questions.</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-10-07:/discussion_topics/discussion_topic_60621",
-  "title": "Mandatory Meeting 10/8 (tomorrow) After School",
-  "author": "Ila Lu",
-  "initials": "IL",
-  "published": "2026-10-07T18:20:43-07:00",
-  "posted": "Posted Oct 7, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/60621",
-  "html": "<p>Hello everyone, this is a reminder that <strong>we will be having a TSA meeting in the lower commons after school tomorrow</strong>. </p>\n<p>This meeting will be mandatory for ALL MEMBERS, as we will be going over information such as membership requirements, new changes for this year, as well as important dates. We hope to see you there!</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-10-01:/discussion_topics/discussion_topic_60058",
-  "title": "Intern applications due tonight",
-  "author": "Tanya Acharya",
-  "initials": "TA",
-  "published": "2026-10-01T11:23:18-07:00",
-  "posted": "Posted Oct 1, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/60058",
-  "html": "<p>Reminder that applications for the intern position is due TONIGHT AT MIDNIGHT! The application link is on my previous announcement.</p>\n<p>Information:</p>\n<p>If you are interested in learning about being a TSA officer, this is a great opportunity for you! Interns will have the opportunity to work alongside each officer to see what position they would be best at and enjoy the most. Becoming an intern is a great way to show your commitment to TSA, and will give you an advantage when applying for officer at the end of the year. <strong>Applications are due October 1</strong>, and information about interviews will come after.</p>"
  }
 ];
