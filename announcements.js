@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-11-19:/discussion_topics/discussion_topic_63748",
+  "title": "URGENT: Payments Due!",
+  "author": "Shivam Chowdhary",
+  "initials": "SC",
+  "published": "2026-11-19T10:07:36-08:00",
+  "posted": "Posted Nov 19, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/63748",
+  "html": "<p>Hello everyone,</p>\n<p>Just a reminder that the $65 TSA Dues are due <strong>tomorrow, Friday November 20th, at 11:59 PM</strong>, regardless if you make states or not. If you do not pay your dues, even if you quality for states, you will not be permitted to attend states. Email <a href=\"mailto:1058748@lwsd.org\" target=\"_blank\" rel=\"noopener noreferrer\">1058748@lwsd.org </a>if you have any questions about the dues.</p>\n<p>Sincerely,</p>\n<p>The TSA Officer Team</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-11-16:/discussion_topics/discussion_topic_63537",
   "title": "Testing Update",
   "author": "Sayuri Kuruppu",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Oct 22, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/61701",
   "html": "<p>Hi Eastlake TSA!</p>\n<p>Event registration for the 2026–27 competition season is now open! Fill out the <a href=\"https://forms.cloud.microsoft/r/nVSm3n5DsC\" target=\"_blank\" rel=\"noopener noreferrer\">form</a> to indicate which events you would like to compete in and who you plan to work with. You may register for a maximum of 6 events, and we recommend participating in at least 2. For event descriptions and team size limits, check the <a href=\"https://www.washingtontsa.org/high-school-events\" target=\"_blank\" rel=\"noopener noreferrer\">Washington TSA website</a> for the most up to date information Also, please coordinate with your teammates to ensure everyone lists the same team members for events you are doing together. The form is due Monday, 10/26, at 11:59 PM, and you can edit your responses after submitting at any time before the deadline, so we suggest you submit early, even if your events or teams aren&#x27;t finalized yet so you don&#x27;t forget!</p>\n<p>Also, if you weren&#x27;t able to attend the Event Selection Workshop today, the slides are in the canvas files.</p>\n<p>Please feel free to reach out to an officer if you have any questions!</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-10-19:/discussion_topics/discussion_topic_61409",
-  "title": "Volunteers Needed for Event Selection Workshop",
-  "author": "Yash Nagarahalli",
-  "initials": "YN",
-  "published": "2026-10-19T23:39:47-07:00",
-  "posted": "Posted Oct 19, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/61409",
-  "html": "<p>Hi Eastlake TSA!</p>\n<p>We are looking for volunteers to help us run our Event Selection Workshop this Thursday, 10/22, after school!</p>\n<p>This will be about a 45 min - 1 hour commitment, where you will answer questions about events you have experience with (min 1 year experience) and help new members decide which events are the right fit for them. <strong>You won&#x27;t need to prepare anything</strong>, just come ready to share what you already know about the events you listed on the volunteer form!</p>\n<p>This is also a great opportunity to get to know the officer team and work with us, especially if you&#x27;re interested in becoming an officer at the end of the year!</p>\n<p><strong>By volunteering, you will receive:</strong></p>\n<ul>\n<li>\n<p><strong>2 workshop credits</strong>, completing your workshop credit requirement for the year!</p>\n</li>\n<li>\n<p><strong>1 community service hour</strong></p>\n</li>\n</ul>\n<p>If you&#x27;re interested, please fill out the volunteer form (<a href=\"https://forms.cloud.microsoft/r/CNamzLaN4n\" target=\"_blank\" rel=\"noopener noreferrer\">Event Selection Workshop Volunteer Form – Fill out form</a>)! Feel free to reach out to <a href=\"mailto:1066968@lwsd.org\" target=\"_blank\" rel=\"noopener noreferrer\">1066968@lwsd.org</a> if you have any questions.</p>"
  }
 ];
