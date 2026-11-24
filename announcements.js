@@ -8,6 +8,16 @@
 
 window.TSA_ANNOUNCEMENTS = [
  {
+  "id": "tag:canvas.instructure.com,2026-11-23:/discussion_topics/discussion_topic_64020",
+  "title": "Payment Extension!",
+  "author": "Shivam Chowdhary",
+  "initials": "SC",
+  "published": "2026-11-23T19:41:24-08:00",
+  "posted": "Posted Nov 23, 2026",
+  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/64020",
+  "html": "<p>Hello Everyone!</p>\n<p>Due to the high amount of people who weren&#x27;t able to submit their payments before the deadline last week, we have decided to extend the deadline for our TSA Dues, so everyone is able to participate. The new deadline for payments is <strong>Sunday, 11/29/26, </strong>at <strong>11:59 P.M. </strong>However, if possible, please try to get your payments in before the deadline, so that we don&#x27;t run into any issues! We will not be able to accommodate any exceptions to this deadline. <strong>If we do not receive a payment by this deadline, you will not be able to participate, even if you qualify for states.</strong> Remember, to pay, go to the LWSD Payment Portal and pay the $65 due for TSA. Email <a href=\"mailto:1058748@lwsd.org\" target=\"_blank\" rel=\"noopener noreferrer\">1058748@lwsd.org</a> if you have any questions or concerns about this payment. </p>\n<p>Sincerely,</p>\n<p>The TSA Officer Team</p>"
+ },
+ {
   "id": "tag:canvas.instructure.com,2026-11-19:/discussion_topics/discussion_topic_63748",
   "title": "URGENT: Payments Due!",
   "author": "Shivam Chowdhary",
@@ -146,15 +156,5 @@ window.TSA_ANNOUNCEMENTS = [
   "posted": "Posted Oct 26, 2026",
   "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/61951",
   "html": "<p>Hi Eastlake TSA!</p>\n<p>Event registration for the 2026–27 competition season <strong>closes today</strong>! Please fill out the <a href=\"https://forms.cloud.microsoft/r/nVSm3n5DsC\" target=\"_blank\" rel=\"noopener noreferrer\">form</a> to indicate which events you would like to compete in and who you plan to work with. <br><br>As a refresher, you may register for a maximum of 6 events, and we recommend participating in at least 2. For event descriptions and team size limits, check the <a href=\"https://www.washingtontsa.org/high-school-events\" target=\"_blank\" rel=\"noopener noreferrer\">Washington TSA website</a> for the most up-to-date information. You can edit your form if you click the &#x27;save&#x27; option on Microsoft Forms. </p>\n<p>Please feel free to reach out to an officer if you have any questions!</p>"
- },
- {
-  "id": "tag:canvas.instructure.com,2026-10-22:/discussion_topics/discussion_topic_61701",
-  "title": "26-27 Event Registration",
-  "author": "Yash Nagarahalli",
-  "initials": "YN",
-  "published": "2026-10-22T20:00:50-07:00",
-  "posted": "Posted Oct 22, 2026",
-  "url": "https://lwsd414.instructure.com/courses/5033/discussion_topics/61701",
-  "html": "<p>Hi Eastlake TSA!</p>\n<p>Event registration for the 2026–27 competition season is now open! Fill out the <a href=\"https://forms.cloud.microsoft/r/nVSm3n5DsC\" target=\"_blank\" rel=\"noopener noreferrer\">form</a> to indicate which events you would like to compete in and who you plan to work with. You may register for a maximum of 6 events, and we recommend participating in at least 2. For event descriptions and team size limits, check the <a href=\"https://www.washingtontsa.org/high-school-events\" target=\"_blank\" rel=\"noopener noreferrer\">Washington TSA website</a> for the most up to date information Also, please coordinate with your teammates to ensure everyone lists the same team members for events you are doing together. The form is due Monday, 10/26, at 11:59 PM, and you can edit your responses after submitting at any time before the deadline, so we suggest you submit early, even if your events or teams aren&#x27;t finalized yet so you don&#x27;t forget!</p>\n<p>Also, if you weren&#x27;t able to attend the Event Selection Workshop today, the slides are in the canvas files.</p>\n<p>Please feel free to reach out to an officer if you have any questions!</p>"
  }
 ];
